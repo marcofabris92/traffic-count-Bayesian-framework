@@ -1,0 +1,2220 @@
+
+shifts =
+
+     4    12     6
+
+
+Average sensor errors [%]:
+   19.0352   35.7322   27.9290
+
+
+n =
+
+     1
+
+
+n =
+
+     2
+
+
+n =
+
+     3
+
+
+=== SENSOR MATCHING OUTPUT ===
+Videocamera
+Number of real detections = 539
+Time instant: t = t_x0 + k,
+              where t_x0 = 7201,
+              and 1 <= k <= 7188
+
+Sensor  1
+Selected Delta = 1
+Optimal temporal window W = 1
+Number of associations = 498
+Time instant: t = t_y01 + k_hat,
+              where t_y01 = 7205
+
+Sensor  2
+Selected Delta = 3
+Optimal temporal window W = 3
+Number of associations = 510
+Time instant: t = t_y02 + k_hat,
+              where t_y02 = 7213
+
+Sensor  3
+Selected Delta = 2
+Optimal temporal window W = 2
+Number of associations = 501
+Time instant: t = t_y03 + k_hat,
+              where t_y03 = 7207
+
+
+Sensor matches per oracle vehicle:
+Vehicle 1 (oracle k = 13): x = 2
+  Sensor  1 : k_hat = 13, y = 2
+  Sensor  2 : k_hat = 13, y = 2
+  Sensor  3 : no detection
+Vehicle 2 (oracle k = 18): x = 3
+  Sensor  1 : k_hat = 18, y = 3
+  Sensor  2 : k_hat = 18, y = 3
+  Sensor  3 : k_hat = 18, y = 4
+Vehicle 3 (oracle k = 28): x = 2
+  Sensor  1 : k_hat = 28, y = 2
+  Sensor  2 : k_hat = 29, y = 2
+  Sensor  3 : k_hat = 29, y = 2
+Vehicle 4 (oracle k = 34): x = 2
+  Sensor  1 : k_hat = 33, y = 2
+  Sensor  2 : k_hat = 33, y = 2
+  Sensor  3 : k_hat = 34, y = 2
+Vehicle 5 (oracle k = 35): x = 2
+  Sensor  1 : k_hat = 35, y = 2
+  Sensor  2 : k_hat = 35, y = 2
+  Sensor  3 : k_hat = 35, y = 2
+Vehicle 6 (oracle k = 65): x = 2
+  Sensor  1 : k_hat = 64, y = 2
+  Sensor  2 : k_hat = 64, y = 2
+  Sensor  3 : k_hat = 65, y = 2
+Vehicle 7 (oracle k = 70): x = 3
+  Sensor  1 : k_hat = 69, y = 3
+  Sensor  2 : k_hat = 70, y = 3
+  Sensor  3 : k_hat = 70, y = 4
+Vehicle 8 (oracle k = 72): x = 2
+  Sensor  1 : k_hat = 71, y = 2
+  Sensor  2 : k_hat = 71, y = 2
+  Sensor  3 : k_hat = 71, y = 2
+Vehicle 9 (oracle k = 90): x = 2
+  Sensor  1 : k_hat = 90, y = 2
+  Sensor  2 : k_hat = 91, y = 2
+  Sensor  3 : k_hat = 91, y = 2
+Vehicle 10 (oracle k = 92): x = 2
+  Sensor  1 : k_hat = 91, y = 2
+  Sensor  2 : k_hat = 92, y = 2
+  Sensor  3 : k_hat = 91, y = 2
+Vehicle 11 (oracle k = 96): x = 2
+  Sensor  1 : k_hat = 96, y = 2
+  Sensor  2 : k_hat = 96, y = 2
+  Sensor  3 : k_hat = 96, y = 2
+Vehicle 12 (oracle k = 116): x = 2
+  Sensor  1 : k_hat = 115, y = 2
+  Sensor  2 : k_hat = 116, y = 2
+  Sensor  3 : k_hat = 116, y = 3
+Vehicle 13 (oracle k = 137): x = 2
+  Sensor  1 : k_hat = 137, y = 2
+  Sensor  2 : k_hat = 135, y = 2
+  Sensor  3 : k_hat = 137, y = 3
+Vehicle 14 (oracle k = 185): x = 2
+  Sensor  1 : k_hat = 185, y = 2
+  Sensor  2 : k_hat = 184, y = 2
+  Sensor  3 : k_hat = 185, y = 2
+Vehicle 15 (oracle k = 224): x = 4
+  Sensor  1 : k_hat = 223, y = 4
+  Sensor  2 : k_hat = 225, y = 4
+  Sensor  3 : k_hat = 224, y = 4
+Vehicle 16 (oracle k = 236): x = 2
+  Sensor  1 : k_hat = 235, y = 2
+  Sensor  2 : k_hat = 235, y = 2
+  Sensor  3 : k_hat = 236, y = 3
+Vehicle 17 (oracle k = 252): x = 2
+  Sensor  1 : k_hat = 251, y = 2
+  Sensor  2 : k_hat = 250, y = 2
+  Sensor  3 : k_hat = 251, y = 3
+Vehicle 18 (oracle k = 279): x = 2
+  Sensor  1 : k_hat = 279, y = 2
+  Sensor  2 : k_hat = 279, y = 2
+  Sensor  3 : k_hat = 279, y = 2
+Vehicle 19 (oracle k = 283): x = 2
+  Sensor  1 : k_hat = 283, y = 2
+  Sensor  2 : k_hat = 283, y = 2
+  Sensor  3 : k_hat = 283, y = 2
+Vehicle 20 (oracle k = 285): x = 2
+  Sensor  1 : k_hat = 285, y = 2
+  Sensor  2 : k_hat = 285, y = 2
+  Sensor  3 : k_hat = 286, y = 3
+Vehicle 21 (oracle k = 312): x = 2
+  Sensor  1 : k_hat = 312, y = 2
+  Sensor  2 : k_hat = 312, y = 2
+  Sensor  3 : k_hat = 312, y = 2
+Vehicle 22 (oracle k = 314): x = 2
+  Sensor  1 : k_hat = 314, y = 2
+  Sensor  2 : k_hat = 314, y = 2
+  Sensor  3 : no detection
+Vehicle 23 (oracle k = 316): x = 2
+  Sensor  1 : k_hat = 316, y = 2
+  Sensor  2 : k_hat = 316, y = 2
+  Sensor  3 : k_hat = 317, y = 2
+Vehicle 24 (oracle k = 321): x = 2
+  Sensor  1 : k_hat = 322, y = 2
+  Sensor  2 : k_hat = 322, y = 2
+  Sensor  3 : no detection
+Vehicle 25 (oracle k = 323): x = 2
+  Sensor  1 : k_hat = 323, y = 2
+  Sensor  2 : k_hat = 323, y = 2
+  Sensor  3 : no detection
+Vehicle 26 (oracle k = 326): x = 2
+  Sensor  1 : k_hat = 327, y = 2
+  Sensor  2 : k_hat = 326, y = 2
+  Sensor  3 : no detection
+Vehicle 27 (oracle k = 338): x = 2
+  Sensor  1 : k_hat = 338, y = 2
+  Sensor  2 : k_hat = 337, y = 2
+  Sensor  3 : k_hat = 339, y = 2
+Vehicle 28 (oracle k = 347): x = 2
+  Sensor  1 : k_hat = 347, y = 2
+  Sensor  2 : k_hat = 347, y = 2
+  Sensor  3 : k_hat = 347, y = 2
+Vehicle 29 (oracle k = 359): x = 2
+  Sensor  1 : k_hat = 359, y = 2
+  Sensor  2 : k_hat = 361, y = 2
+  Sensor  3 : k_hat = 360, y = 3
+Vehicle 30 (oracle k = 364): x = 2
+  Sensor  1 : k_hat = 364, y = 2
+  Sensor  2 : k_hat = 364, y = 2
+  Sensor  3 : k_hat = 365, y = 2
+Vehicle 31 (oracle k = 379): x = 2
+  Sensor  1 : k_hat = 379, y = 2
+  Sensor  2 : k_hat = 379, y = 2
+  Sensor  3 : no detection
+Vehicle 32 (oracle k = 403): x = 2
+  Sensor  1 : k_hat = 403, y = 2
+  Sensor  2 : k_hat = 403, y = 2
+  Sensor  3 : k_hat = 403, y = 2
+Vehicle 33 (oracle k = 404): x = 2
+  Sensor  1 : k_hat = 404, y = 2
+  Sensor  2 : k_hat = 405, y = 2
+  Sensor  3 : k_hat = 405, y = 2
+Vehicle 34 (oracle k = 424): x = 2
+  Sensor  1 : k_hat = 423, y = 2
+  Sensor  2 : k_hat = 426, y = 2
+  Sensor  3 : k_hat = 424, y = 2
+Vehicle 35 (oracle k = 425): x = 2
+  Sensor  1 : k_hat = 425, y = 2
+  Sensor  2 : k_hat = 426, y = 2
+  Sensor  3 : k_hat = 426, y = 2
+Vehicle 36 (oracle k = 429): x = 2
+  Sensor  1 : k_hat = 430, y = 2
+  Sensor  2 : k_hat = 431, y = 2
+  Sensor  3 : k_hat = 431, y = 3
+Vehicle 37 (oracle k = 433): x = 3
+  Sensor  1 : k_hat = 433, y = 3
+  Sensor  2 : k_hat = 433, y = 3
+  Sensor  3 : k_hat = 433, y = 4
+Vehicle 38 (oracle k = 452): x = 2
+  Sensor  1 : k_hat = 451, y = 2
+  Sensor  2 : k_hat = 451, y = 2
+  Sensor  3 : k_hat = 452, y = 2
+Vehicle 39 (oracle k = 465): x = 2
+  Sensor  1 : k_hat = 466, y = 2
+  Sensor  2 : k_hat = 465, y = 2
+  Sensor  3 : k_hat = 466, y = 3
+Vehicle 40 (oracle k = 469): x = 2
+  Sensor  1 : k_hat = 469, y = 2
+  Sensor  2 : k_hat = 468, y = 2
+  Sensor  3 : k_hat = 469, y = 2
+Vehicle 41 (oracle k = 473): x = 2 ------- 
+  Sensor  1 : no detection
+  Sensor  2 : no detection
+  Sensor  3 : no detection
+Vehicle 42 (oracle k = 482): x = 2
+  Sensor  1 : k_hat = 483, y = 2
+  Sensor  2 : k_hat = 484, y = 2
+  Sensor  3 : k_hat = 484, y = 3
+Vehicle 43 (oracle k = 489): x = 2
+  Sensor  1 : k_hat = 489, y = 2
+  Sensor  2 : k_hat = 488, y = 2
+  Sensor  3 : k_hat = 489, y = 2
+Vehicle 44 (oracle k = 501): x = 2
+  Sensor  1 : k_hat = 501, y = 2
+  Sensor  2 : k_hat = 500, y = 2
+  Sensor  3 : k_hat = 501, y = 2
+Vehicle 45 (oracle k = 509): x = 2
+  Sensor  1 : k_hat = 509, y = 2
+  Sensor  2 : k_hat = 509, y = 2
+  Sensor  3 : k_hat = 510, y = 2
+Vehicle 46 (oracle k = 535): x = 2
+  Sensor  1 : k_hat = 535, y = 2
+  Sensor  2 : k_hat = 532, y = 2
+  Sensor  3 : k_hat = 535, y = 2
+Vehicle 47 (oracle k = 550): x = 2
+  Sensor  1 : k_hat = 550, y = 2
+  Sensor  2 : k_hat = 552, y = 2
+  Sensor  3 : no detection
+Vehicle 48 (oracle k = 570): x = 2
+  Sensor  1 : k_hat = 570, y = 2
+  Sensor  2 : no detection
+  Sensor  3 : no detection
+Vehicle 49 (oracle k = 572): x = 2
+  Sensor  1 : k_hat = 572, y = 2
+  Sensor  2 : k_hat = 574, y = 2
+  Sensor  3 : k_hat = 572, y = 2
+Vehicle 50 (oracle k = 573): x = 2
+  Sensor  1 : k_hat = 573, y = 2
+  Sensor  2 : k_hat = 573, y = 2
+  Sensor  3 : k_hat = 573, y = 2
+Vehicle 51 (oracle k = 575): x = 2
+  Sensor  1 : k_hat = 574, y = 2
+  Sensor  2 : k_hat = 574, y = 2
+  Sensor  3 : k_hat = 574, y = 2
+Vehicle 52 (oracle k = 576): x = 2
+  Sensor  1 : k_hat = 576, y = 3
+  Sensor  2 : k_hat = 576, y = 2
+  Sensor  3 : k_hat = 575, y = 3
+Vehicle 53 (oracle k = 578): x = 3
+  Sensor  1 : k_hat = 578, y = 2
+  Sensor  2 : k_hat = 580, y = 3
+  Sensor  3 : k_hat = 577, y = 3
+Vehicle 54 (oracle k = 581): x = 4
+  Sensor  1 : k_hat = 581, y = 3
+  Sensor  2 : k_hat = 582, y = 3
+  Sensor  3 : k_hat = 582, y = 4
+Vehicle 55 (oracle k = 586): x = 2
+  Sensor  1 : k_hat = 586, y = 2
+  Sensor  2 : k_hat = 584, y = 2
+  Sensor  3 : k_hat = 586, y = 2
+Vehicle 56 (oracle k = 615): x = 2
+  Sensor  1 : k_hat = 615, y = 2
+  Sensor  2 : k_hat = 614, y = 2
+  Sensor  3 : no detection
+Vehicle 57 (oracle k = 632): x = 2
+  Sensor  1 : k_hat = 632, y = 3
+  Sensor  2 : k_hat = 632, y = 2
+  Sensor  3 : k_hat = 633, y = 2
+Vehicle 58 (oracle k = 703): x = 2
+  Sensor  1 : k_hat = 703, y = 2
+  Sensor  2 : k_hat = 706, y = 2
+  Sensor  3 : k_hat = 703, y = 2
+Vehicle 59 (oracle k = 705): x = 2
+  Sensor  1 : k_hat = 705, y = 2
+  Sensor  2 : k_hat = 706, y = 2
+  Sensor  3 : k_hat = 706, y = 3
+Vehicle 60 (oracle k = 717): x = 2
+  Sensor  1 : k_hat = 717, y = 2
+  Sensor  2 : k_hat = 718, y = 2
+  Sensor  3 : k_hat = 718, y = 2
+Vehicle 61 (oracle k = 734): x = 2
+  Sensor  1 : k_hat = 734, y = 2
+  Sensor  2 : k_hat = 735, y = 2
+  Sensor  3 : k_hat = 735, y = 2
+Vehicle 62 (oracle k = 737): x = 3
+  Sensor  1 : no detection
+  Sensor  2 : k_hat = 736, y = 3
+  Sensor  3 : k_hat = 736, y = 2
+Vehicle 63 (oracle k = 740): x = 2
+  Sensor  1 : k_hat = 740, y = 2
+  Sensor  2 : k_hat = 741, y = 2
+  Sensor  3 : k_hat = 741, y = 3
+Vehicle 64 (oracle k = 760): x = 2
+  Sensor  1 : k_hat = 760, y = 2
+  Sensor  2 : k_hat = 761, y = 2
+  Sensor  3 : k_hat = 761, y = 2
+Vehicle 65 (oracle k = 777): x = 2
+  Sensor  1 : k_hat = 777, y = 2
+  Sensor  2 : k_hat = 776, y = 2
+  Sensor  3 : no detection
+Vehicle 66 (oracle k = 778): x = 3
+  Sensor  1 : k_hat = 778, y = 3
+  Sensor  2 : k_hat = 776, y = 2
+  Sensor  3 : k_hat = 778, y = 3
+Vehicle 67 (oracle k = 840): x = 4
+  Sensor  1 : k_hat = 839, y = 3
+  Sensor  2 : k_hat = 838, y = 3
+  Sensor  3 : k_hat = 839, y = 3
+Vehicle 68 (oracle k = 863): x = 2
+  Sensor  1 : k_hat = 863, y = 2
+  Sensor  2 : k_hat = 866, y = 2
+  Sensor  3 : k_hat = 864, y = 2
+Vehicle 69 (oracle k = 865): x = 2
+  Sensor  1 : k_hat = 864, y = 2
+  Sensor  2 : k_hat = 865, y = 2
+  Sensor  3 : k_hat = 865, y = 3
+Vehicle 70 (oracle k = 874): x = 2
+  Sensor  1 : k_hat = 874, y = 2
+  Sensor  2 : k_hat = 875, y = 2
+  Sensor  3 : k_hat = 875, y = 2
+Vehicle 71 (oracle k = 879): x = 2
+  Sensor  1 : k_hat = 879, y = 2
+  Sensor  2 : k_hat = 880, y = 2
+  Sensor  3 : k_hat = 880, y = 3
+Vehicle 72 (oracle k = 893): x = 2
+  Sensor  1 : k_hat = 893, y = 2
+  Sensor  2 : k_hat = 893, y = 2
+  Sensor  3 : k_hat = 893, y = 2
+Vehicle 73 (oracle k = 939): x = 2
+  Sensor  1 : k_hat = 940, y = 2
+  Sensor  2 : k_hat = 940, y = 2
+  Sensor  3 : k_hat = 940, y = 3
+Vehicle 74 (oracle k = 984): x = 4
+  Sensor  1 : k_hat = 983, y = 4
+  Sensor  2 : no detection
+  Sensor  3 : k_hat = 985, y = 4
+Vehicle 75 (oracle k = 998): x = 2
+  Sensor  1 : k_hat = 999, y = 2
+  Sensor  2 : k_hat = 1000, y = 2
+  Sensor  3 : k_hat = 999, y = 2
+Vehicle 76 (oracle k = 1007): x = 2
+  Sensor  1 : k_hat = 1007, y = 2
+  Sensor  2 : k_hat = 1005, y = 2
+  Sensor  3 : k_hat = 1007, y = 3
+Vehicle 77 (oracle k = 1021): x = 2
+  Sensor  1 : k_hat = 1021, y = 2
+  Sensor  2 : k_hat = 1018, y = 2
+  Sensor  3 : k_hat = 1021, y = 2
+Vehicle 78 (oracle k = 1043): x = 2
+  Sensor  1 : k_hat = 1043, y = 2
+  Sensor  2 : k_hat = 1044, y = 2
+  Sensor  3 : k_hat = 1044, y = 3
+Vehicle 79 (oracle k = 1063): x = 2
+  Sensor  1 : k_hat = 1064, y = 2
+  Sensor  2 : k_hat = 1066, y = 2
+  Sensor  3 : k_hat = 1065, y = 3
+Vehicle 80 (oracle k = 1066): x = 3
+  Sensor  1 : no detection
+  Sensor  2 : k_hat = 1067, y = 3
+  Sensor  3 : k_hat = 1066, y = 4
+Vehicle 81 (oracle k = 1077): x = 2
+  Sensor  1 : k_hat = 1077, y = 2
+  Sensor  2 : k_hat = 1077, y = 2
+  Sensor  3 : k_hat = 1078, y = 3
+Vehicle 82 (oracle k = 1082): x = 2
+  Sensor  1 : k_hat = 1082, y = 2
+  Sensor  2 : k_hat = 1083, y = 2
+  Sensor  3 : k_hat = 1083, y = 2
+Vehicle 83 (oracle k = 1085): x = 4
+  Sensor  1 : k_hat = 1084, y = 3
+  Sensor  2 : k_hat = 1085, y = 3
+  Sensor  3 : k_hat = 1085, y = 4
+Vehicle 84 (oracle k = 1105): x = 2
+  Sensor  1 : k_hat = 1105, y = 2
+  Sensor  2 : no detection
+  Sensor  3 : k_hat = 1106, y = 2
+Vehicle 85 (oracle k = 1107): x = 2
+  Sensor  1 : k_hat = 1107, y = 2
+  Sensor  2 : k_hat = 1107, y = 2
+  Sensor  3 : k_hat = 1109, y = 3
+Vehicle 86 (oracle k = 1108): x = 2
+  Sensor  1 : k_hat = 1108, y = 2
+  Sensor  2 : k_hat = 1109, y = 2
+  Sensor  3 : k_hat = 1108, y = 2
+Vehicle 87 (oracle k = 1119): x = 2
+  Sensor  1 : k_hat = 1118, y = 2
+  Sensor  2 : k_hat = 1120, y = 2
+  Sensor  3 : k_hat = 1119, y = 2
+Vehicle 88 (oracle k = 1124): x = 2
+  Sensor  1 : k_hat = 1124, y = 2
+  Sensor  2 : k_hat = 1124, y = 2
+  Sensor  3 : k_hat = 1124, y = 2
+Vehicle 89 (oracle k = 1150): x = 4
+  Sensor  1 : k_hat = 1149, y = 4
+  Sensor  2 : k_hat = 1151, y = 4
+  Sensor  3 : k_hat = 1150, y = 4
+Vehicle 90 (oracle k = 1152): x = 2
+  Sensor  1 : k_hat = 1152, y = 2
+  Sensor  2 : k_hat = 1153, y = 2
+  Sensor  3 : k_hat = 1153, y = 2
+Vehicle 91 (oracle k = 1171): x = 2
+  Sensor  1 : k_hat = 1171, y = 2
+  Sensor  2 : k_hat = 1172, y = 2
+  Sensor  3 : k_hat = 1172, y = 2
+Vehicle 92 (oracle k = 1179): x = 2
+  Sensor  1 : k_hat = 1179, y = 2
+  Sensor  2 : no detection
+  Sensor  3 : k_hat = 1179, y = 3
+Vehicle 93 (oracle k = 1186): x = 2
+  Sensor  1 : k_hat = 1186, y = 2
+  Sensor  2 : k_hat = 1184, y = 2
+  Sensor  3 : k_hat = 1186, y = 2
+Vehicle 94 (oracle k = 1204): x = 2
+  Sensor  1 : k_hat = 1204, y = 2
+  Sensor  2 : k_hat = 1202, y = 2
+  Sensor  3 : k_hat = 1204, y = 2
+Vehicle 95 (oracle k = 1228): x = 4
+  Sensor  1 : no detection
+  Sensor  2 : k_hat = 1231, y = 3
+  Sensor  3 : k_hat = 1230, y = 4
+Vehicle 96 (oracle k = 1229): x = 3
+  Sensor  1 : k_hat = 1229, y = 3
+  Sensor  2 : k_hat = 1232, y = 3
+  Sensor  3 : k_hat = 1231, y = 3
+Vehicle 97 (oracle k = 1230): x = 3
+  Sensor  1 : k_hat = 1230, y = 3
+  Sensor  2 : k_hat = 1232, y = 3
+  Sensor  3 : no detection
+Vehicle 98 (oracle k = 1231): x = 2
+  Sensor  1 : k_hat = 1231, y = 2
+  Sensor  2 : k_hat = 1234, y = 2
+  Sensor  3 : k_hat = 1233, y = 3
+Vehicle 99 (oracle k = 1243): x = 2
+  Sensor  1 : k_hat = 1243, y = 2
+  Sensor  2 : k_hat = 1245, y = 2
+  Sensor  3 : k_hat = 1244, y = 2
+Vehicle 100 (oracle k = 1246): x = 2
+  Sensor  1 : k_hat = 1246, y = 2
+  Sensor  2 : k_hat = 1247, y = 2
+  Sensor  3 : k_hat = 1247, y = 3
+Vehicle 101 (oracle k = 1257): x = 2 ------- 
+  Sensor  1 : no detection
+  Sensor  2 : no detection
+  Sensor  3 : no detection
+Vehicle 102 (oracle k = 1279): x = 2
+  Sensor  1 : k_hat = 1279, y = 2
+  Sensor  2 : k_hat = 1280, y = 2
+  Sensor  3 : no detection
+Vehicle 103 (oracle k = 1282): x = 2
+  Sensor  1 : k_hat = 1282, y = 2
+  Sensor  2 : k_hat = 1282, y = 2
+  Sensor  3 : k_hat = 1283, y = 2
+Vehicle 104 (oracle k = 1284): x = 2
+  Sensor  1 : k_hat = 1284, y = 2
+  Sensor  2 : k_hat = 1285, y = 2
+  Sensor  3 : k_hat = 1285, y = 2
+Vehicle 105 (oracle k = 1286): x = 2
+  Sensor  1 : k_hat = 1286, y = 2
+  Sensor  2 : k_hat = 1287, y = 2
+  Sensor  3 : k_hat = 1287, y = 2
+Vehicle 106 (oracle k = 1293): x = 2
+  Sensor  1 : k_hat = 1293, y = 2
+  Sensor  2 : k_hat = 1292, y = 2
+  Sensor  3 : k_hat = 1293, y = 3
+Vehicle 107 (oracle k = 1347): x = 2
+  Sensor  1 : k_hat = 1347, y = 2
+  Sensor  2 : k_hat = 1349, y = 2
+  Sensor  3 : k_hat = 1349, y = 2
+Vehicle 108 (oracle k = 1359): x = 2
+  Sensor  1 : k_hat = 1359, y = 2
+  Sensor  2 : k_hat = 1359, y = 2
+  Sensor  3 : k_hat = 1360, y = 2
+Vehicle 109 (oracle k = 1361): x = 2
+  Sensor  1 : k_hat = 1361, y = 2
+  Sensor  2 : k_hat = 1361, y = 2
+  Sensor  3 : k_hat = 1360, y = 2
+Vehicle 110 (oracle k = 1362): x = 2
+  Sensor  1 : k_hat = 1363, y = 2
+  Sensor  2 : k_hat = 1362, y = 2
+  Sensor  3 : k_hat = 1362, y = 2
+Vehicle 111 (oracle k = 1380): x = 2
+  Sensor  1 : k_hat = 1380, y = 2
+  Sensor  2 : k_hat = 1381, y = 2
+  Sensor  3 : k_hat = 1381, y = 2
+Vehicle 112 (oracle k = 1384): x = 2
+  Sensor  1 : k_hat = 1385, y = 2
+  Sensor  2 : k_hat = 1386, y = 2
+  Sensor  3 : k_hat = 1385, y = 2
+Vehicle 113 (oracle k = 1400): x = 2
+  Sensor  1 : k_hat = 1400, y = 2
+  Sensor  2 : k_hat = 1400, y = 2
+  Sensor  3 : no detection
+Vehicle 114 (oracle k = 1431): x = 2
+  Sensor  1 : k_hat = 1432, y = 2
+  Sensor  2 : k_hat = 1432, y = 2
+  Sensor  3 : k_hat = 1432, y = 2
+Vehicle 115 (oracle k = 1483): x = 2
+  Sensor  1 : k_hat = 1483, y = 2
+  Sensor  2 : no detection
+  Sensor  3 : k_hat = 1483, y = 2
+Vehicle 116 (oracle k = 1520): x = 2
+  Sensor  1 : k_hat = 1519, y = 2
+  Sensor  2 : k_hat = 1520, y = 2
+  Sensor  3 : k_hat = 1520, y = 2
+Vehicle 117 (oracle k = 1543): x = 2
+  Sensor  1 : k_hat = 1543, y = 2
+  Sensor  2 : k_hat = 1546, y = 2
+  Sensor  3 : k_hat = 1544, y = 2
+Vehicle 118 (oracle k = 1546): x = 4
+  Sensor  1 : no detection
+  Sensor  2 : k_hat = 1548, y = 3
+  Sensor  3 : k_hat = 1545, y = 2
+Vehicle 119 (oracle k = 1553): x = 2
+  Sensor  1 : k_hat = 1553, y = 2
+  Sensor  2 : k_hat = 1553, y = 2
+  Sensor  3 : k_hat = 1553, y = 2
+Vehicle 120 (oracle k = 1562): x = 2
+  Sensor  1 : k_hat = 1562, y = 2
+  Sensor  2 : k_hat = 1563, y = 2
+  Sensor  3 : k_hat = 1563, y = 2
+Vehicle 121 (oracle k = 1565): x = 3
+  Sensor  1 : k_hat = 1566, y = 3
+  Sensor  2 : k_hat = 1566, y = 3
+  Sensor  3 : k_hat = 1567, y = 4
+Vehicle 122 (oracle k = 1574): x = 2
+  Sensor  1 : k_hat = 1573, y = 2
+  Sensor  2 : k_hat = 1574, y = 2
+  Sensor  3 : k_hat = 1574, y = 2
+Vehicle 123 (oracle k = 1589): x = 2
+  Sensor  1 : k_hat = 1589, y = 2
+  Sensor  2 : k_hat = 1589, y = 2
+  Sensor  3 : k_hat = 1591, y = 2
+Vehicle 124 (oracle k = 1590): x = 2
+  Sensor  1 : k_hat = 1591, y = 2
+  Sensor  2 : k_hat = 1590, y = 2
+  Sensor  3 : k_hat = 1591, y = 2
+Vehicle 125 (oracle k = 1606): x = 2
+  Sensor  1 : k_hat = 1606, y = 2
+  Sensor  2 : k_hat = 1606, y = 2
+  Sensor  3 : k_hat = 1606, y = 2
+Vehicle 126 (oracle k = 1609): x = 4
+  Sensor  1 : k_hat = 1608, y = 3
+  Sensor  2 : k_hat = 1607, y = 3
+  Sensor  3 : k_hat = 1608, y = 4
+Vehicle 127 (oracle k = 1627): x = 3
+  Sensor  1 : k_hat = 1626, y = 3
+  Sensor  2 : k_hat = 1627, y = 3
+  Sensor  3 : k_hat = 1627, y = 4
+Vehicle 128 (oracle k = 1631): x = 2
+  Sensor  1 : k_hat = 1630, y = 2
+  Sensor  2 : k_hat = 1631, y = 2
+  Sensor  3 : k_hat = 1631, y = 2
+Vehicle 129 (oracle k = 1670): x = 2
+  Sensor  1 : k_hat = 1670, y = 2
+  Sensor  2 : k_hat = 1670, y = 2
+  Sensor  3 : k_hat = 1670, y = 2
+Vehicle 130 (oracle k = 1672): x = 2
+  Sensor  1 : k_hat = 1672, y = 2
+  Sensor  2 : no detection
+  Sensor  3 : k_hat = 1672, y = 3
+Vehicle 131 (oracle k = 1678): x = 2
+  Sensor  1 : k_hat = 1679, y = 3
+  Sensor  2 : k_hat = 1678, y = 2
+  Sensor  3 : k_hat = 1679, y = 2
+Vehicle 132 (oracle k = 1685): x = 2
+  Sensor  1 : k_hat = 1685, y = 2
+  Sensor  2 : k_hat = 1684, y = 2
+  Sensor  3 : k_hat = 1685, y = 2
+Vehicle 133 (oracle k = 1717): x = 2
+  Sensor  1 : k_hat = 1717, y = 2
+  Sensor  2 : k_hat = 1716, y = 2
+  Sensor  3 : k_hat = 1717, y = 2
+Vehicle 134 (oracle k = 1737): x = 2
+  Sensor  1 : k_hat = 1737, y = 2
+  Sensor  2 : k_hat = 1738, y = 2
+  Sensor  3 : k_hat = 1738, y = 3
+Vehicle 135 (oracle k = 1749): x = 2
+  Sensor  1 : k_hat = 1748, y = 2
+  Sensor  2 : k_hat = 1750, y = 2
+  Sensor  3 : k_hat = 1749, y = 2
+Vehicle 136 (oracle k = 1754): x = 2
+  Sensor  1 : k_hat = 1754, y = 2
+  Sensor  2 : k_hat = 1754, y = 2
+  Sensor  3 : k_hat = 1754, y = 2
+Vehicle 137 (oracle k = 1775): x = 2
+  Sensor  1 : k_hat = 1774, y = 2
+  Sensor  2 : k_hat = 1773, y = 2
+  Sensor  3 : k_hat = 1774, y = 2
+Vehicle 138 (oracle k = 1779): x = 2
+  Sensor  1 : k_hat = 1779, y = 2
+  Sensor  2 : k_hat = 1779, y = 2
+  Sensor  3 : k_hat = 1780, y = 3
+Vehicle 139 (oracle k = 1781): x = 2
+  Sensor  1 : k_hat = 1781, y = 2
+  Sensor  2 : k_hat = 1781, y = 2
+  Sensor  3 : k_hat = 1782, y = 3
+Vehicle 140 (oracle k = 1790): x = 2
+  Sensor  1 : k_hat = 1790, y = 2
+  Sensor  2 : k_hat = 1788, y = 2
+  Sensor  3 : k_hat = 1790, y = 2
+Vehicle 141 (oracle k = 1818): x = 2
+  Sensor  1 : k_hat = 1817, y = 2
+  Sensor  2 : k_hat = 1821, y = 2
+  Sensor  3 : k_hat = 1818, y = 2
+Vehicle 142 (oracle k = 1820): x = 2
+  Sensor  1 : k_hat = 1820, y = 2
+  Sensor  2 : k_hat = 1821, y = 2
+  Sensor  3 : k_hat = 1821, y = 2
+Vehicle 143 (oracle k = 1822): x = 3
+  Sensor  1 : k_hat = 1823, y = 3
+  Sensor  2 : k_hat = 1824, y = 3
+  Sensor  3 : k_hat = 1824, y = 4
+Vehicle 144 (oracle k = 1852): x = 2
+  Sensor  1 : k_hat = 1851, y = 2
+  Sensor  2 : k_hat = 1852, y = 2
+  Sensor  3 : k_hat = 1851, y = 2
+Vehicle 145 (oracle k = 1853): x = 2
+  Sensor  1 : no detection
+  Sensor  2 : no detection
+  Sensor  3 : k_hat = 1852, y = 3
+Vehicle 146 (oracle k = 1895): x = 2
+  Sensor  1 : k_hat = 1895, y = 2
+  Sensor  2 : k_hat = 1894, y = 1
+  Sensor  3 : no detection
+Vehicle 147 (oracle k = 1902): x = 2
+  Sensor  1 : k_hat = 1902, y = 2
+  Sensor  2 : no detection
+  Sensor  3 : k_hat = 1904, y = 3
+Vehicle 148 (oracle k = 1903): x = 2
+  Sensor  1 : k_hat = 1903, y = 2
+  Sensor  2 : k_hat = 1906, y = 2
+  Sensor  3 : k_hat = 1905, y = 3
+Vehicle 149 (oracle k = 1922): x = 2
+  Sensor  1 : k_hat = 1921, y = 2
+  Sensor  2 : k_hat = 1921, y = 2
+  Sensor  3 : k_hat = 1922, y = 2
+Vehicle 150 (oracle k = 1936): x = 4
+  Sensor  1 : k_hat = 1935, y = 3
+  Sensor  2 : k_hat = 1938, y = 3
+  Sensor  3 : k_hat = 1936, y = 4
+Vehicle 151 (oracle k = 1941): x = 2
+  Sensor  1 : k_hat = 1940, y = 2
+  Sensor  2 : k_hat = 1938, y = 3
+  Sensor  3 : k_hat = 1940, y = 2
+Vehicle 152 (oracle k = 1986): x = 2
+  Sensor  1 : k_hat = 1986, y = 2
+  Sensor  2 : k_hat = 1985, y = 2
+  Sensor  3 : k_hat = 1986, y = 2
+Vehicle 153 (oracle k = 2048): x = 2
+  Sensor  1 : k_hat = 2047, y = 2
+  Sensor  2 : k_hat = 2046, y = 2
+  Sensor  3 : k_hat = 2047, y = 2
+Vehicle 154 (oracle k = 2049): x = 2
+  Sensor  1 : no detection
+  Sensor  2 : k_hat = 2046, y = 2
+  Sensor  3 : k_hat = 2047, y = 2
+Vehicle 155 (oracle k = 2063): x = 2
+  Sensor  1 : k_hat = 2062, y = 2
+  Sensor  2 : k_hat = 2061, y = 2
+  Sensor  3 : k_hat = 2062, y = 2
+Vehicle 156 (oracle k = 2118): x = 2
+  Sensor  1 : k_hat = 2117, y = 2
+  Sensor  2 : k_hat = 2120, y = 2
+  Sensor  3 : k_hat = 2119, y = 2
+Vehicle 157 (oracle k = 2127): x = 2
+  Sensor  1 : k_hat = 2126, y = 2
+  Sensor  2 : k_hat = 2127, y = 2
+  Sensor  3 : k_hat = 2127, y = 2
+Vehicle 158 (oracle k = 2142): x = 2
+  Sensor  1 : k_hat = 2141, y = 2
+  Sensor  2 : k_hat = 2140, y = 2
+  Sensor  3 : k_hat = 2141, y = 2
+Vehicle 159 (oracle k = 2144): x = 3
+  Sensor  1 : k_hat = 2143, y = 3
+  Sensor  2 : k_hat = 2141, y = 3
+  Sensor  3 : k_hat = 2143, y = 4
+Vehicle 160 (oracle k = 2148): x = 2
+  Sensor  1 : k_hat = 2147, y = 2
+  Sensor  2 : k_hat = 2146, y = 2
+  Sensor  3 : k_hat = 2147, y = 3
+Vehicle 161 (oracle k = 2165): x = 2
+  Sensor  1 : k_hat = 2165, y = 2
+  Sensor  2 : k_hat = 2165, y = 2
+  Sensor  3 : k_hat = 2165, y = 2
+Vehicle 162 (oracle k = 2179): x = 2
+  Sensor  1 : k_hat = 2178, y = 2
+  Sensor  2 : k_hat = 2178, y = 2
+  Sensor  3 : k_hat = 2179, y = 3
+Vehicle 163 (oracle k = 2186): x = 2
+  Sensor  1 : k_hat = 2185, y = 2
+  Sensor  2 : k_hat = 2183, y = 2
+  Sensor  3 : k_hat = 2185, y = 3
+Vehicle 164 (oracle k = 2195): x = 2
+  Sensor  1 : k_hat = 2194, y = 2
+  Sensor  2 : k_hat = 2194, y = 2
+  Sensor  3 : no detection
+Vehicle 165 (oracle k = 2201): x = 2
+  Sensor  1 : k_hat = 2200, y = 2
+  Sensor  2 : k_hat = 2200, y = 2
+  Sensor  3 : k_hat = 2201, y = 2
+Vehicle 166 (oracle k = 2206): x = 2
+  Sensor  1 : k_hat = 2205, y = 2
+  Sensor  2 : k_hat = 2205, y = 2
+  Sensor  3 : k_hat = 2206, y = 2
+Vehicle 167 (oracle k = 2210): x = 2
+  Sensor  1 : k_hat = 2210, y = 2
+  Sensor  2 : k_hat = 2211, y = 2
+  Sensor  3 : k_hat = 2211, y = 2
+Vehicle 168 (oracle k = 2223): x = 2
+  Sensor  1 : k_hat = 2222, y = 2
+  Sensor  2 : k_hat = 2225, y = 2
+  Sensor  3 : k_hat = 2225, y = 2
+Vehicle 169 (oracle k = 2227): x = 4
+  Sensor  1 : k_hat = 2228, y = 4
+  Sensor  2 : k_hat = 2228, y = 4
+  Sensor  3 : k_hat = 2229, y = 4
+Vehicle 170 (oracle k = 2249): x = 2
+  Sensor  1 : k_hat = 2248, y = 2
+  Sensor  2 : k_hat = 2248, y = 2
+  Sensor  3 : k_hat = 2249, y = 3
+Vehicle 171 (oracle k = 2296): x = 2
+  Sensor  1 : k_hat = 2295, y = 2
+  Sensor  2 : k_hat = 2297, y = 2
+  Sensor  3 : k_hat = 2296, y = 2
+Vehicle 172 (oracle k = 2303): x = 2
+  Sensor  1 : k_hat = 2302, y = 2
+  Sensor  2 : k_hat = 2303, y = 2
+  Sensor  3 : k_hat = 2303, y = 2
+Vehicle 173 (oracle k = 2315): x = 3
+  Sensor  1 : k_hat = 2316, y = 2
+  Sensor  2 : k_hat = 2316, y = 3
+  Sensor  3 : k_hat = 2315, y = 4
+Vehicle 174 (oracle k = 2317): x = 2
+  Sensor  1 : k_hat = 2316, y = 2
+  Sensor  2 : k_hat = 2318, y = 2
+  Sensor  3 : k_hat = 2318, y = 2
+Vehicle 175 (oracle k = 2320): x = 2
+  Sensor  1 : k_hat = 2319, y = 2
+  Sensor  2 : k_hat = 2322, y = 2
+  Sensor  3 : k_hat = 2321, y = 2
+Vehicle 176 (oracle k = 2322): x = 3
+  Sensor  1 : k_hat = 2321, y = 3
+  Sensor  2 : k_hat = 2322, y = 2
+  Sensor  3 : no detection
+Vehicle 177 (oracle k = 2350): x = 2
+  Sensor  1 : k_hat = 2349, y = 2
+  Sensor  2 : k_hat = 2350, y = 2
+  Sensor  3 : k_hat = 2350, y = 3
+Vehicle 178 (oracle k = 2355): x = 2
+  Sensor  1 : k_hat = 2355, y = 2
+  Sensor  2 : k_hat = 2356, y = 2
+  Sensor  3 : k_hat = 2356, y = 2
+Vehicle 179 (oracle k = 2357): x = 2
+  Sensor  1 : k_hat = 2356, y = 2
+  Sensor  2 : k_hat = 2357, y = 2
+  Sensor  3 : k_hat = 2357, y = 3
+Vehicle 180 (oracle k = 2359): x = 2
+  Sensor  1 : k_hat = 2359, y = 2
+  Sensor  2 : k_hat = 2359, y = 2
+  Sensor  3 : k_hat = 2359, y = 2
+Vehicle 181 (oracle k = 2360): x = 2
+  Sensor  1 : no detection
+  Sensor  2 : no detection
+  Sensor  3 : k_hat = 2360, y = 2
+Vehicle 182 (oracle k = 2372): x = 2
+  Sensor  1 : k_hat = 2372, y = 2
+  Sensor  2 : k_hat = 2369, y = 2
+  Sensor  3 : k_hat = 2371, y = 2
+Vehicle 183 (oracle k = 2390): x = 2
+  Sensor  1 : k_hat = 2389, y = 2
+  Sensor  2 : k_hat = 2391, y = 2
+  Sensor  3 : k_hat = 2390, y = 2
+Vehicle 184 (oracle k = 2396): x = 2
+  Sensor  1 : k_hat = 2396, y = 2
+  Sensor  2 : no detection
+  Sensor  3 : k_hat = 2396, y = 2
+Vehicle 185 (oracle k = 2397): x = 2
+  Sensor  1 : no detection
+  Sensor  2 : k_hat = 2397, y = 2
+  Sensor  3 : k_hat = 2397, y = 2
+Vehicle 186 (oracle k = 2403): x = 2
+  Sensor  1 : k_hat = 2403, y = 2
+  Sensor  2 : k_hat = 2404, y = 2
+  Sensor  3 : k_hat = 2404, y = 2
+Vehicle 187 (oracle k = 2414): x = 2
+  Sensor  1 : k_hat = 2413, y = 2
+  Sensor  2 : k_hat = 2417, y = 2
+  Sensor  3 : k_hat = 2415, y = 3
+Vehicle 188 (oracle k = 2432): x = 2
+  Sensor  1 : k_hat = 2431, y = 2
+  Sensor  2 : k_hat = 2433, y = 2
+  Sensor  3 : k_hat = 2432, y = 2
+Vehicle 189 (oracle k = 2435): x = 2
+  Sensor  1 : k_hat = 2435, y = 2
+  Sensor  2 : k_hat = 2436, y = 2
+  Sensor  3 : k_hat = 2436, y = 2
+Vehicle 190 (oracle k = 2462): x = 2
+  Sensor  1 : k_hat = 2462, y = 2
+  Sensor  2 : k_hat = 2462, y = 2
+  Sensor  3 : k_hat = 2463, y = 2
+Vehicle 191 (oracle k = 2470): x = 2
+  Sensor  1 : k_hat = 2469, y = 2
+  Sensor  2 : k_hat = 2472, y = 2
+  Sensor  3 : k_hat = 2471, y = 2
+Vehicle 192 (oracle k = 2493): x = 2
+  Sensor  1 : k_hat = 2493, y = 2
+  Sensor  2 : k_hat = 2494, y = 2
+  Sensor  3 : k_hat = 2494, y = 2
+Vehicle 193 (oracle k = 2504): x = 2
+  Sensor  1 : k_hat = 2504, y = 2
+  Sensor  2 : k_hat = 2503, y = 2
+  Sensor  3 : k_hat = 2504, y = 2
+Vehicle 194 (oracle k = 2510): x = 2
+  Sensor  1 : k_hat = 2509, y = 2
+  Sensor  2 : k_hat = 2509, y = 2
+  Sensor  3 : k_hat = 2510, y = 2
+Vehicle 195 (oracle k = 2516): x = 2
+  Sensor  1 : k_hat = 2515, y = 2
+  Sensor  2 : k_hat = 2515, y = 2
+  Sensor  3 : no detection
+Vehicle 196 (oracle k = 2529): x = 2
+  Sensor  1 : k_hat = 2528, y = 2
+  Sensor  2 : k_hat = 2532, y = 2
+  Sensor  3 : k_hat = 2530, y = 2
+Vehicle 197 (oracle k = 2570): x = 2
+  Sensor  1 : k_hat = 2569, y = 2
+  Sensor  2 : k_hat = 2571, y = 2
+  Sensor  3 : k_hat = 2570, y = 2
+Vehicle 198 (oracle k = 2574): x = 4
+  Sensor  1 : no detection
+  Sensor  2 : k_hat = 2572, y = 3
+  Sensor  3 : k_hat = 2572, y = 4
+Vehicle 199 (oracle k = 2595): x = 2
+  Sensor  1 : k_hat = 2594, y = 2
+  Sensor  2 : k_hat = 2594, y = 2
+  Sensor  3 : k_hat = 2594, y = 2
+Vehicle 200 (oracle k = 2631): x = 2
+  Sensor  1 : k_hat = 2630, y = 3
+  Sensor  2 : k_hat = 2630, y = 2
+  Sensor  3 : k_hat = 2631, y = 2
+Vehicle 201 (oracle k = 2641): x = 2
+  Sensor  1 : k_hat = 2640, y = 2
+  Sensor  2 : k_hat = 2638, y = 2
+  Sensor  3 : k_hat = 2640, y = 2
+Vehicle 202 (oracle k = 2654): x = 4
+  Sensor  1 : no detection
+  Sensor  2 : k_hat = 2653, y = 3
+  Sensor  3 : k_hat = 2652, y = 4
+Vehicle 203 (oracle k = 2710): x = 2
+  Sensor  1 : k_hat = 2709, y = 2
+  Sensor  2 : k_hat = 2711, y = 2
+  Sensor  3 : k_hat = 2711, y = 3
+Vehicle 204 (oracle k = 2727): x = 2
+  Sensor  1 : k_hat = 2726, y = 2
+  Sensor  2 : k_hat = 2726, y = 2
+  Sensor  3 : k_hat = 2727, y = 3
+Vehicle 205 (oracle k = 2751): x = 2
+  Sensor  1 : k_hat = 2750, y = 2
+  Sensor  2 : k_hat = 2750, y = 2
+  Sensor  3 : k_hat = 2751, y = 2
+Vehicle 206 (oracle k = 2754): x = 2
+  Sensor  1 : k_hat = 2754, y = 2
+  Sensor  2 : k_hat = 2756, y = 2
+  Sensor  3 : k_hat = 2755, y = 2
+Vehicle 207 (oracle k = 2765): x = 2
+  Sensor  1 : k_hat = 2764, y = 2
+  Sensor  2 : k_hat = 2763, y = 2
+  Sensor  3 : k_hat = 2765, y = 2
+Vehicle 208 (oracle k = 2773): x = 2
+  Sensor  1 : k_hat = 2772, y = 2
+  Sensor  2 : k_hat = 2773, y = 2
+  Sensor  3 : no detection
+Vehicle 209 (oracle k = 2791): x = 2
+  Sensor  1 : k_hat = 2790, y = 2
+  Sensor  2 : k_hat = 2790, y = 2
+  Sensor  3 : k_hat = 2791, y = 2
+Vehicle 210 (oracle k = 2825): x = 2
+  Sensor  1 : k_hat = 2824, y = 2
+  Sensor  2 : k_hat = 2823, y = 2
+  Sensor  3 : no detection
+Vehicle 211 (oracle k = 2832): x = 3
+  Sensor  1 : k_hat = 2832, y = 3
+  Sensor  2 : k_hat = 2832, y = 3
+  Sensor  3 : k_hat = 2832, y = 4
+Vehicle 212 (oracle k = 2846): x = 2
+  Sensor  1 : k_hat = 2846, y = 2
+  Sensor  2 : k_hat = 2845, y = 2
+  Sensor  3 : k_hat = 2846, y = 2
+Vehicle 213 (oracle k = 2863): x = 4
+  Sensor  1 : no detection
+  Sensor  2 : k_hat = 2861, y = 4
+  Sensor  3 : k_hat = 2861, y = 4
+Vehicle 214 (oracle k = 2867): x = 2
+  Sensor  1 : no detection
+  Sensor  2 : k_hat = 2866, y = 2
+  Sensor  3 : k_hat = 2866, y = 2
+Vehicle 215 (oracle k = 2879): x = 2
+  Sensor  1 : k_hat = 2879, y = 2
+  Sensor  2 : k_hat = 2881, y = 2
+  Sensor  3 : k_hat = 2880, y = 2
+Vehicle 216 (oracle k = 2929): x = 2
+  Sensor  1 : k_hat = 2928, y = 4
+  Sensor  2 : k_hat = 2929, y = 2
+  Sensor  3 : k_hat = 2930, y = 4
+Vehicle 217 (oracle k = 2931): x = 2
+  Sensor  1 : no detection
+  Sensor  2 : k_hat = 2932, y = 2
+  Sensor  3 : k_hat = 2930, y = 4
+Vehicle 218 (oracle k = 2950): x = 4
+  Sensor  1 : k_hat = 2949, y = 3
+  Sensor  2 : k_hat = 2951, y = 3
+  Sensor  3 : k_hat = 2950, y = 4
+Vehicle 219 (oracle k = 2953): x = 3
+  Sensor  1 : no detection
+  Sensor  2 : k_hat = 2953, y = 3
+  Sensor  3 : k_hat = 2952, y = 4
+Vehicle 220 (oracle k = 2956): x = 2
+  Sensor  1 : k_hat = 2956, y = 2
+  Sensor  2 : k_hat = 2957, y = 2
+  Sensor  3 : k_hat = 2956, y = 2
+Vehicle 221 (oracle k = 3011): x = 2
+  Sensor  1 : k_hat = 3012, y = 2
+  Sensor  2 : k_hat = 3012, y = 2
+  Sensor  3 : k_hat = 3012, y = 2
+Vehicle 222 (oracle k = 3013): x = 2
+  Sensor  1 : k_hat = 3013, y = 2
+  Sensor  2 : k_hat = 3013, y = 2
+  Sensor  3 : k_hat = 3012, y = 2
+Vehicle 223 (oracle k = 3015): x = 2
+  Sensor  1 : no detection
+  Sensor  2 : no detection
+  Sensor  3 : k_hat = 3013, y = 3
+Vehicle 224 (oracle k = 3038): x = 2
+  Sensor  1 : k_hat = 3037, y = 2
+  Sensor  2 : no detection
+  Sensor  3 : k_hat = 3037, y = 2
+Vehicle 225 (oracle k = 3056): x = 4
+  Sensor  1 : k_hat = 3057, y = 3
+  Sensor  2 : k_hat = 3056, y = 3
+  Sensor  3 : k_hat = 3057, y = 4
+Vehicle 226 (oracle k = 3097): x = 2
+  Sensor  1 : k_hat = 3098, y = 2
+  Sensor  2 : k_hat = 3097, y = 2
+  Sensor  3 : k_hat = 3098, y = 2
+Vehicle 227 (oracle k = 3099): x = 2
+  Sensor  1 : k_hat = 3098, y = 2
+  Sensor  2 : no detection
+  Sensor  3 : k_hat = 3098, y = 2
+Vehicle 228 (oracle k = 3158): x = 2
+  Sensor  1 : k_hat = 3157, y = 2
+  Sensor  2 : k_hat = 3159, y = 2
+  Sensor  3 : k_hat = 3158, y = 2
+Vehicle 229 (oracle k = 3166): x = 2
+  Sensor  1 : k_hat = 3166, y = 2
+  Sensor  2 : k_hat = 3166, y = 2
+  Sensor  3 : k_hat = 3166, y = 2
+Vehicle 230 (oracle k = 3181): x = 2
+  Sensor  1 : k_hat = 3180, y = 2
+  Sensor  2 : k_hat = 3180, y = 2
+  Sensor  3 : k_hat = 3181, y = 2
+Vehicle 231 (oracle k = 3189): x = 2
+  Sensor  1 : k_hat = 3189, y = 2
+  Sensor  2 : k_hat = 3186, y = 2
+  Sensor  3 : k_hat = 3188, y = 3
+Vehicle 232 (oracle k = 3197): x = 2
+  Sensor  1 : k_hat = 3196, y = 2
+  Sensor  2 : k_hat = 3196, y = 2
+  Sensor  3 : k_hat = 3197, y = 2
+Vehicle 233 (oracle k = 3214): x = 2
+  Sensor  1 : k_hat = 3214, y = 2
+  Sensor  2 : k_hat = 3213, y = 2
+  Sensor  3 : k_hat = 3214, y = 3
+Vehicle 234 (oracle k = 3219): x = 2
+  Sensor  1 : k_hat = 3219, y = 2
+  Sensor  2 : k_hat = 3218, y = 2
+  Sensor  3 : k_hat = 3219, y = 2
+Vehicle 235 (oracle k = 3225): x = 2
+  Sensor  1 : k_hat = 3225, y = 2
+  Sensor  2 : no detection
+  Sensor  3 : k_hat = 3226, y = 3
+Vehicle 236 (oracle k = 3237): x = 2
+  Sensor  1 : k_hat = 3236, y = 2
+  Sensor  2 : k_hat = 3237, y = 2
+  Sensor  3 : k_hat = 3237, y = 2
+Vehicle 237 (oracle k = 3243): x = 2
+  Sensor  1 : k_hat = 3243, y = 2
+  Sensor  2 : k_hat = 3243, y = 2
+  Sensor  3 : k_hat = 3244, y = 2
+Vehicle 238 (oracle k = 3246): x = 4
+  Sensor  1 : no detection
+  Sensor  2 : k_hat = 3245, y = 3
+  Sensor  3 : k_hat = 3245, y = 4
+Vehicle 239 (oracle k = 3262): x = 2
+  Sensor  1 : k_hat = 3261, y = 2
+  Sensor  2 : k_hat = 3262, y = 2
+  Sensor  3 : no detection
+Vehicle 240 (oracle k = 3274): x = 2
+  Sensor  1 : k_hat = 3273, y = 2
+  Sensor  2 : k_hat = 3274, y = 2
+  Sensor  3 : k_hat = 3274, y = 2
+Vehicle 241 (oracle k = 3285): x = 2
+  Sensor  1 : k_hat = 3284, y = 2
+  Sensor  2 : k_hat = 3284, y = 2
+  Sensor  3 : k_hat = 3285, y = 3
+Vehicle 242 (oracle k = 3300): x = 2
+  Sensor  1 : k_hat = 3299, y = 2
+  Sensor  2 : k_hat = 3298, y = 2
+  Sensor  3 : k_hat = 3299, y = 2
+Vehicle 243 (oracle k = 3307): x = 2
+  Sensor  1 : k_hat = 3306, y = 2
+  Sensor  2 : k_hat = 3307, y = 2
+  Sensor  3 : k_hat = 3307, y = 2
+Vehicle 244 (oracle k = 3320): x = 2
+  Sensor  1 : k_hat = 3319, y = 2
+  Sensor  2 : k_hat = 3319, y = 2
+  Sensor  3 : k_hat = 3320, y = 2
+Vehicle 245 (oracle k = 3322): x = 2
+  Sensor  1 : k_hat = 3322, y = 2
+  Sensor  2 : k_hat = 3322, y = 2
+  Sensor  3 : k_hat = 3322, y = 2
+Vehicle 246 (oracle k = 3333): x = 4
+  Sensor  1 : k_hat = 3332, y = 3
+  Sensor  2 : k_hat = 3335, y = 3
+  Sensor  3 : k_hat = 3334, y = 4
+Vehicle 247 (oracle k = 3343): x = 2
+  Sensor  1 : k_hat = 3343, y = 2
+  Sensor  2 : k_hat = 3343, y = 2
+  Sensor  3 : k_hat = 3343, y = 2
+Vehicle 248 (oracle k = 3356): x = 2
+  Sensor  1 : k_hat = 3356, y = 2
+  Sensor  2 : k_hat = 3357, y = 2
+  Sensor  3 : k_hat = 3357, y = 4
+Vehicle 249 (oracle k = 3358): x = 2
+  Sensor  1 : k_hat = 3357, y = 2
+  Sensor  2 : k_hat = 3358, y = 2
+  Sensor  3 : k_hat = 3357, y = 4
+Vehicle 250 (oracle k = 3367): x = 2
+  Sensor  1 : k_hat = 3367, y = 2
+  Sensor  2 : k_hat = 3368, y = 2
+  Sensor  3 : k_hat = 3368, y = 2
+Vehicle 251 (oracle k = 3370): x = 2
+  Sensor  1 : k_hat = 3369, y = 2
+  Sensor  2 : k_hat = 3370, y = 2
+  Sensor  3 : k_hat = 3370, y = 2
+Vehicle 252 (oracle k = 3371): x = 2
+  Sensor  1 : k_hat = 3371, y = 2
+  Sensor  2 : k_hat = 3371, y = 2
+  Sensor  3 : k_hat = 3371, y = 2
+Vehicle 253 (oracle k = 3390): x = 2
+  Sensor  1 : k_hat = 3390, y = 2
+  Sensor  2 : k_hat = 3389, y = 2
+  Sensor  3 : k_hat = 3390, y = 3
+Vehicle 254 (oracle k = 3406): x = 2
+  Sensor  1 : k_hat = 3405, y = 2
+  Sensor  2 : k_hat = 3406, y = 2
+  Sensor  3 : k_hat = 3406, y = 3
+Vehicle 255 (oracle k = 3422): x = 2
+  Sensor  1 : k_hat = 3422, y = 2
+  Sensor  2 : k_hat = 3423, y = 2
+  Sensor  3 : k_hat = 3423, y = 3
+Vehicle 256 (oracle k = 3433): x = 2
+  Sensor  1 : k_hat = 3433, y = 2
+  Sensor  2 : k_hat = 3434, y = 2
+  Sensor  3 : k_hat = 3433, y = 2
+Vehicle 257 (oracle k = 3435): x = 2
+  Sensor  1 : k_hat = 3435, y = 2
+  Sensor  2 : k_hat = 3436, y = 3
+  Sensor  3 : k_hat = 3436, y = 2
+Vehicle 258 (oracle k = 3450): x = 2
+  Sensor  1 : k_hat = 3450, y = 2
+  Sensor  2 : k_hat = 3450, y = 2
+  Sensor  3 : k_hat = 3450, y = 2
+Vehicle 259 (oracle k = 3453): x = 2
+  Sensor  1 : k_hat = 3453, y = 2
+  Sensor  2 : k_hat = 3453, y = 2
+  Sensor  3 : k_hat = 3454, y = 2
+Vehicle 260 (oracle k = 3456): x = 2
+  Sensor  1 : k_hat = 3456, y = 2
+  Sensor  2 : k_hat = 3455, y = 2
+  Sensor  3 : k_hat = 3456, y = 2
+Vehicle 261 (oracle k = 3466): x = 2
+  Sensor  1 : k_hat = 3466, y = 2
+  Sensor  2 : k_hat = 3466, y = 2
+  Sensor  3 : k_hat = 3466, y = 2
+Vehicle 262 (oracle k = 3477): x = 2
+  Sensor  1 : k_hat = 3477, y = 2
+  Sensor  2 : k_hat = 3478, y = 2
+  Sensor  3 : k_hat = 3478, y = 2
+Vehicle 263 (oracle k = 3479): x = 2
+  Sensor  1 : k_hat = 3479, y = 2
+  Sensor  2 : k_hat = 3479, y = 2
+  Sensor  3 : k_hat = 3479, y = 3
+Vehicle 264 (oracle k = 3480): x = 2
+  Sensor  1 : k_hat = 3480, y = 2
+  Sensor  2 : k_hat = 3481, y = 2
+  Sensor  3 : k_hat = 3481, y = 3
+Vehicle 265 (oracle k = 3482): x = 2
+  Sensor  1 : k_hat = 3481, y = 2
+  Sensor  2 : k_hat = 3482, y = 2
+  Sensor  3 : k_hat = 3482, y = 2
+Vehicle 266 (oracle k = 3498): x = 2
+  Sensor  1 : k_hat = 3498, y = 2
+  Sensor  2 : k_hat = 3497, y = 2
+  Sensor  3 : k_hat = 3498, y = 3
+Vehicle 267 (oracle k = 3503): x = 2
+  Sensor  1 : k_hat = 3503, y = 2
+  Sensor  2 : k_hat = 3502, y = 2
+  Sensor  3 : no detection
+Vehicle 268 (oracle k = 3528): x = 2
+  Sensor  1 : k_hat = 3528, y = 2
+  Sensor  2 : k_hat = 3525, y = 2
+  Sensor  3 : k_hat = 3527, y = 2
+Vehicle 269 (oracle k = 3540): x = 2
+  Sensor  1 : k_hat = 3540, y = 2
+  Sensor  2 : k_hat = 3539, y = 2
+  Sensor  3 : k_hat = 3540, y = 3
+Vehicle 270 (oracle k = 3546): x = 2
+  Sensor  1 : k_hat = 3546, y = 2
+  Sensor  2 : k_hat = 3545, y = 2
+  Sensor  3 : k_hat = 3546, y = 2
+Vehicle 271 (oracle k = 3556): x = 2
+  Sensor  1 : k_hat = 3555, y = 2
+  Sensor  2 : k_hat = 3557, y = 3
+  Sensor  3 : k_hat = 3556, y = 2
+Vehicle 272 (oracle k = 3568): x = 2
+  Sensor  1 : k_hat = 3567, y = 2
+  Sensor  2 : k_hat = 3568, y = 2
+  Sensor  3 : k_hat = 3568, y = 2
+Vehicle 273 (oracle k = 3574): x = 2
+  Sensor  1 : k_hat = 3574, y = 2
+  Sensor  2 : no detection
+  Sensor  3 : k_hat = 3575, y = 3
+Vehicle 274 (oracle k = 3579): x = 2
+  Sensor  1 : k_hat = 3579, y = 2
+  Sensor  2 : k_hat = 3579, y = 2
+  Sensor  3 : k_hat = 3580, y = 2
+Vehicle 275 (oracle k = 3595): x = 2
+  Sensor  1 : k_hat = 3595, y = 2
+  Sensor  2 : k_hat = 3595, y = 2
+  Sensor  3 : k_hat = 3595, y = 2
+Vehicle 276 (oracle k = 3608): x = 2
+  Sensor  1 : k_hat = 3607, y = 2
+  Sensor  2 : k_hat = 3608, y = 2
+  Sensor  3 : k_hat = 3608, y = 3
+Vehicle 277 (oracle k = 3610): x = 2
+  Sensor  1 : k_hat = 3610, y = 2
+  Sensor  2 : k_hat = 3610, y = 2
+  Sensor  3 : k_hat = 3610, y = 2
+Vehicle 278 (oracle k = 3616): x = 2
+  Sensor  1 : k_hat = 3616, y = 2
+  Sensor  2 : k_hat = 3616, y = 2
+  Sensor  3 : k_hat = 3617, y = 3
+Vehicle 279 (oracle k = 3631): x = 2
+  Sensor  1 : k_hat = 3631, y = 2
+  Sensor  2 : k_hat = 3631, y = 2
+  Sensor  3 : k_hat = 3631, y = 2
+Vehicle 280 (oracle k = 3654): x = 2
+  Sensor  1 : k_hat = 3654, y = 2
+  Sensor  2 : k_hat = 3653, y = 2
+  Sensor  3 : no detection
+Vehicle 281 (oracle k = 3658): x = 2
+  Sensor  1 : k_hat = 3658, y = 2
+  Sensor  2 : k_hat = 3658, y = 2
+  Sensor  3 : k_hat = 3659, y = 2
+Vehicle 282 (oracle k = 3669): x = 2
+  Sensor  1 : k_hat = 3669, y = 2
+  Sensor  2 : k_hat = 3671, y = 2
+  Sensor  3 : k_hat = 3670, y = 2
+Vehicle 283 (oracle k = 3676): x = 4
+  Sensor  1 : no detection
+  Sensor  2 : k_hat = 3676, y = 4
+  Sensor  3 : k_hat = 3675, y = 4
+Vehicle 284 (oracle k = 3687): x = 3
+  Sensor  1 : no detection
+  Sensor  2 : k_hat = 3685, y = 2
+  Sensor  3 : k_hat = 3685, y = 3
+Vehicle 285 (oracle k = 3693): x = 2
+  Sensor  1 : k_hat = 3692, y = 2
+  Sensor  2 : k_hat = 3692, y = 2
+  Sensor  3 : k_hat = 3693, y = 3
+Vehicle 286 (oracle k = 3707): x = 2
+  Sensor  1 : k_hat = 3706, y = 2
+  Sensor  2 : k_hat = 3707, y = 2
+  Sensor  3 : k_hat = 3707, y = 2
+Vehicle 287 (oracle k = 3714): x = 2
+  Sensor  1 : k_hat = 3714, y = 2
+  Sensor  2 : k_hat = 3714, y = 2
+  Sensor  3 : k_hat = 3714, y = 2
+Vehicle 288 (oracle k = 3734): x = 2
+  Sensor  1 : k_hat = 3733, y = 2
+  Sensor  2 : k_hat = 3734, y = 1
+  Sensor  3 : k_hat = 3734, y = 2
+Vehicle 289 (oracle k = 3783): x = 2
+  Sensor  1 : k_hat = 3783, y = 2
+  Sensor  2 : k_hat = 3783, y = 2
+  Sensor  3 : k_hat = 3784, y = 3
+Vehicle 290 (oracle k = 3784): x = 2
+  Sensor  1 : no detection
+  Sensor  2 : no detection
+  Sensor  3 : k_hat = 3784, y = 3
+Vehicle 291 (oracle k = 3806): x = 2
+  Sensor  1 : k_hat = 3806, y = 2
+  Sensor  2 : k_hat = 3809, y = 2
+  Sensor  3 : k_hat = 3808, y = 2
+Vehicle 292 (oracle k = 3868): x = 2
+  Sensor  1 : k_hat = 3868, y = 2
+  Sensor  2 : k_hat = 3871, y = 2
+  Sensor  3 : k_hat = 3869, y = 2
+Vehicle 293 (oracle k = 3870): x = 2
+  Sensor  1 : k_hat = 3870, y = 2
+  Sensor  2 : k_hat = 3873, y = 2
+  Sensor  3 : k_hat = 3871, y = 2
+Vehicle 294 (oracle k = 3928): x = 2
+  Sensor  1 : k_hat = 3927, y = 2
+  Sensor  2 : k_hat = 3929, y = 2
+  Sensor  3 : k_hat = 3928, y = 2
+Vehicle 295 (oracle k = 3937): x = 3
+  Sensor  1 : k_hat = 3936, y = 3
+  Sensor  2 : k_hat = 3938, y = 3
+  Sensor  3 : k_hat = 3937, y = 4
+Vehicle 296 (oracle k = 3939): x = 2
+  Sensor  1 : k_hat = 3938, y = 2
+  Sensor  2 : k_hat = 3939, y = 2
+  Sensor  3 : k_hat = 3939, y = 2
+Vehicle 297 (oracle k = 3944): x = 2
+  Sensor  1 : k_hat = 3943, y = 2
+  Sensor  2 : k_hat = 3943, y = 2
+  Sensor  3 : k_hat = 3944, y = 2
+Vehicle 298 (oracle k = 3969): x = 4
+  Sensor  1 : k_hat = 3968, y = 3
+  Sensor  2 : k_hat = 3968, y = 3
+  Sensor  3 : k_hat = 3968, y = 3
+Vehicle 299 (oracle k = 3973): x = 2
+  Sensor  1 : k_hat = 3972, y = 2
+  Sensor  2 : k_hat = 3975, y = 2
+  Sensor  3 : k_hat = 3973, y = 2
+Vehicle 300 (oracle k = 3976): x = 3
+  Sensor  1 : k_hat = 3977, y = 2
+  Sensor  2 : k_hat = 3975, y = 2
+  Sensor  3 : k_hat = 3975, y = 3
+Vehicle 301 (oracle k = 3978): x = 2
+  Sensor  1 : k_hat = 3977, y = 2
+  Sensor  2 : k_hat = 3978, y = 2
+  Sensor  3 : k_hat = 3978, y = 2
+Vehicle 302 (oracle k = 3996): x = 4
+  Sensor  1 : k_hat = 3997, y = 3
+  Sensor  2 : k_hat = 3996, y = 3
+  Sensor  3 : k_hat = 3997, y = 4
+Vehicle 303 (oracle k = 4087): x = 2
+  Sensor  1 : k_hat = 4087, y = 2
+  Sensor  2 : k_hat = 4089, y = 2
+  Sensor  3 : no detection
+Vehicle 304 (oracle k = 4102): x = 2
+  Sensor  1 : k_hat = 4102, y = 2
+  Sensor  2 : k_hat = 4101, y = 2
+  Sensor  3 : k_hat = 4102, y = 2
+Vehicle 305 (oracle k = 4121): x = 2
+  Sensor  1 : k_hat = 4120, y = 2
+  Sensor  2 : k_hat = 4121, y = 2
+  Sensor  3 : k_hat = 4121, y = 3
+Vehicle 306 (oracle k = 4124): x = 2
+  Sensor  1 : k_hat = 4123, y = 2
+  Sensor  2 : k_hat = 4124, y = 2
+  Sensor  3 : k_hat = 4124, y = 2
+Vehicle 307 (oracle k = 4164): x = 2
+  Sensor  1 : k_hat = 4164, y = 2
+  Sensor  2 : k_hat = 4164, y = 2
+  Sensor  3 : k_hat = 4164, y = 2
+Vehicle 308 (oracle k = 4177): x = 2
+  Sensor  1 : k_hat = 4176, y = 2
+  Sensor  2 : k_hat = 4179, y = 2
+  Sensor  3 : k_hat = 4178, y = 3
+Vehicle 309 (oracle k = 4181): x = 2
+  Sensor  1 : k_hat = 4181, y = 3
+  Sensor  2 : k_hat = 4182, y = 2
+  Sensor  3 : k_hat = 4182, y = 3
+Vehicle 310 (oracle k = 4184): x = 2
+  Sensor  1 : k_hat = 4184, y = 2
+  Sensor  2 : k_hat = 4185, y = 2
+  Sensor  3 : k_hat = 4185, y = 3
+Vehicle 311 (oracle k = 4189): x = 2
+  Sensor  1 : k_hat = 4188, y = 2
+  Sensor  2 : k_hat = 4189, y = 2
+  Sensor  3 : k_hat = 4189, y = 2
+Vehicle 312 (oracle k = 4193): x = 2
+  Sensor  1 : k_hat = 4192, y = 3
+  Sensor  2 : k_hat = 4193, y = 2
+  Sensor  3 : k_hat = 4193, y = 2
+Vehicle 313 (oracle k = 4268): x = 4
+  Sensor  1 : no detection
+  Sensor  2 : k_hat = 4269, y = 3
+  Sensor  3 : k_hat = 4268, y = 3
+Vehicle 314 (oracle k = 4288): x = 2
+  Sensor  1 : k_hat = 4287, y = 2
+  Sensor  2 : k_hat = 4288, y = 2
+  Sensor  3 : k_hat = 4288, y = 3
+Vehicle 315 (oracle k = 4291): x = 3
+  Sensor  1 : k_hat = 4291, y = 2
+  Sensor  2 : k_hat = 4291, y = 3
+  Sensor  3 : k_hat = 4291, y = 4
+Vehicle 316 (oracle k = 4292): x = 2
+  Sensor  1 : k_hat = 4292, y = 2
+  Sensor  2 : k_hat = 4292, y = 2
+  Sensor  3 : k_hat = 4292, y = 2
+Vehicle 317 (oracle k = 4293): x = 2
+  Sensor  1 : no detection
+  Sensor  2 : k_hat = 4293, y = 2
+  Sensor  3 : k_hat = 4293, y = 2
+Vehicle 318 (oracle k = 4296): x = 2
+  Sensor  1 : k_hat = 4295, y = 2
+  Sensor  2 : k_hat = 4297, y = 2
+  Sensor  3 : k_hat = 4296, y = 2
+Vehicle 319 (oracle k = 4321): x = 1
+  Sensor  1 : no detection
+  Sensor  2 : k_hat = 4321, y = 2
+  Sensor  3 : k_hat = 4320, y = 2
+Vehicle 320 (oracle k = 4361): x = 2
+  Sensor  1 : k_hat = 4360, y = 2
+  Sensor  2 : k_hat = 4361, y = 2
+  Sensor  3 : k_hat = 4361, y = 3
+Vehicle 321 (oracle k = 4369): x = 3
+  Sensor  1 : k_hat = 4368, y = 3
+  Sensor  2 : k_hat = 4372, y = 3
+  Sensor  3 : k_hat = 4370, y = 3
+Vehicle 322 (oracle k = 4370): x = 2
+  Sensor  1 : k_hat = 4369, y = 2
+  Sensor  2 : k_hat = 4373, y = 2
+  Sensor  3 : k_hat = 4371, y = 2
+Vehicle 323 (oracle k = 4393): x = 2
+  Sensor  1 : no detection
+  Sensor  2 : k_hat = 4393, y = 2
+  Sensor  3 : k_hat = 4392, y = 2
+Vehicle 324 (oracle k = 4394): x = 2
+  Sensor  1 : k_hat = 4394, y = 2
+  Sensor  2 : k_hat = 4395, y = 2
+  Sensor  3 : k_hat = 4394, y = 2
+Vehicle 325 (oracle k = 4396): x = 2
+  Sensor  1 : k_hat = 4395, y = 2
+  Sensor  2 : k_hat = 4396, y = 2
+  Sensor  3 : k_hat = 4396, y = 2
+Vehicle 326 (oracle k = 4439): x = 2
+  Sensor  1 : k_hat = 4440, y = 2
+  Sensor  2 : k_hat = 4441, y = 2
+  Sensor  3 : k_hat = 4441, y = 2
+Vehicle 327 (oracle k = 4442): x = 2
+  Sensor  1 : k_hat = 4443, y = 2
+  Sensor  2 : k_hat = 4441, y = 2
+  Sensor  3 : k_hat = 4441, y = 2
+Vehicle 328 (oracle k = 4444): x = 2
+  Sensor  1 : k_hat = 4443, y = 2
+  Sensor  2 : k_hat = 4444, y = 2
+  Sensor  3 : no detection
+Vehicle 329 (oracle k = 4447): x = 2
+  Sensor  1 : k_hat = 4446, y = 2
+  Sensor  2 : k_hat = 4447, y = 2
+  Sensor  3 : k_hat = 4447, y = 2
+Vehicle 330 (oracle k = 4472): x = 2
+  Sensor  1 : k_hat = 4472, y = 2
+  Sensor  2 : k_hat = 4473, y = 2
+  Sensor  3 : k_hat = 4473, y = 2
+Vehicle 331 (oracle k = 4495): x = 2
+  Sensor  1 : k_hat = 4494, y = 2
+  Sensor  2 : k_hat = 4498, y = 2
+  Sensor  3 : k_hat = 4495, y = 2
+Vehicle 332 (oracle k = 4497): x = 2
+  Sensor  1 : k_hat = 4497, y = 2
+  Sensor  2 : k_hat = 4498, y = 2
+  Sensor  3 : k_hat = 4498, y = 3
+Vehicle 333 (oracle k = 4499): x = 2
+  Sensor  1 : k_hat = 4499, y = 2
+  Sensor  2 : k_hat = 4500, y = 3
+  Sensor  3 : k_hat = 4499, y = 2
+Vehicle 334 (oracle k = 4502): x = 2
+  Sensor  1 : k_hat = 4502, y = 2
+  Sensor  2 : k_hat = 4502, y = 2
+  Sensor  3 : k_hat = 4502, y = 3
+Vehicle 335 (oracle k = 4514): x = 2
+  Sensor  1 : k_hat = 4513, y = 2
+  Sensor  2 : k_hat = 4514, y = 2
+  Sensor  3 : k_hat = 4514, y = 3
+Vehicle 336 (oracle k = 4523): x = 2
+  Sensor  1 : k_hat = 4523, y = 2
+  Sensor  2 : k_hat = 4524, y = 2
+  Sensor  3 : k_hat = 4524, y = 2
+Vehicle 337 (oracle k = 4545): x = 2
+  Sensor  1 : k_hat = 4545, y = 2
+  Sensor  2 : k_hat = 4545, y = 2
+  Sensor  3 : k_hat = 4546, y = 2
+Vehicle 338 (oracle k = 4553): x = 2
+  Sensor  1 : k_hat = 4552, y = 2
+  Sensor  2 : k_hat = 4554, y = 2
+  Sensor  3 : k_hat = 4553, y = 2
+Vehicle 339 (oracle k = 4573): x = 2
+  Sensor  1 : k_hat = 4573, y = 2
+  Sensor  2 : k_hat = 4573, y = 2
+  Sensor  3 : k_hat = 4573, y = 2
+Vehicle 340 (oracle k = 4576): x = 2
+  Sensor  1 : k_hat = 4575, y = 2
+  Sensor  2 : k_hat = 4575, y = 2
+  Sensor  3 : k_hat = 4576, y = 2
+Vehicle 341 (oracle k = 4586): x = 2
+  Sensor  1 : k_hat = 4586, y = 2
+  Sensor  2 : no detection
+  Sensor  3 : k_hat = 4587, y = 3
+Vehicle 342 (oracle k = 4588): x = 2
+  Sensor  1 : k_hat = 4588, y = 2
+  Sensor  2 : k_hat = 4588, y = 2
+  Sensor  3 : k_hat = 4589, y = 2
+Vehicle 343 (oracle k = 4595): x = 2
+  Sensor  1 : k_hat = 4595, y = 2
+  Sensor  2 : k_hat = 4596, y = 2
+  Sensor  3 : k_hat = 4596, y = 2
+Vehicle 344 (oracle k = 4606): x = 2
+  Sensor  1 : k_hat = 4605, y = 2
+  Sensor  2 : k_hat = 4606, y = 2
+  Sensor  3 : k_hat = 4606, y = 2
+Vehicle 345 (oracle k = 4610): x = 2
+  Sensor  1 : k_hat = 4610, y = 2
+  Sensor  2 : k_hat = 4612, y = 2
+  Sensor  3 : k_hat = 4611, y = 2
+Vehicle 346 (oracle k = 4636): x = 2
+  Sensor  1 : k_hat = 4635, y = 2
+  Sensor  2 : k_hat = 4637, y = 2
+  Sensor  3 : k_hat = 4637, y = 3
+Vehicle 347 (oracle k = 4656): x = 2
+  Sensor  1 : no detection
+  Sensor  2 : k_hat = 4653, y = 2
+  Sensor  3 : no detection
+Vehicle 348 (oracle k = 4661): x = 2
+  Sensor  1 : k_hat = 4661, y = 2
+  Sensor  2 : k_hat = 4662, y = 2
+  Sensor  3 : k_hat = 4662, y = 2
+Vehicle 349 (oracle k = 4713): x = 2
+  Sensor  1 : k_hat = 4712, y = 2
+  Sensor  2 : k_hat = 4711, y = 2
+  Sensor  3 : k_hat = 4712, y = 2
+Vehicle 350 (oracle k = 4725): x = 2
+  Sensor  1 : k_hat = 4724, y = 2
+  Sensor  2 : k_hat = 4724, y = 2
+  Sensor  3 : k_hat = 4724, y = 2
+Vehicle 351 (oracle k = 4728): x = 2
+  Sensor  1 : k_hat = 4727, y = 2
+  Sensor  2 : k_hat = 4728, y = 2
+  Sensor  3 : k_hat = 4728, y = 3
+Vehicle 352 (oracle k = 4792): x = 2
+  Sensor  1 : k_hat = 4791, y = 2
+  Sensor  2 : no detection
+  Sensor  3 : k_hat = 4792, y = 3
+Vehicle 353 (oracle k = 4802): x = 2
+  Sensor  1 : k_hat = 4802, y = 2
+  Sensor  2 : k_hat = 4803, y = 2
+  Sensor  3 : k_hat = 4803, y = 2
+Vehicle 354 (oracle k = 4805): x = 2
+  Sensor  1 : k_hat = 4805, y = 2
+  Sensor  2 : k_hat = 4805, y = 2
+  Sensor  3 : k_hat = 4803, y = 2
+Vehicle 355 (oracle k = 4817): x = 2
+  Sensor  1 : k_hat = 4817, y = 2
+  Sensor  2 : k_hat = 4819, y = 2
+  Sensor  3 : k_hat = 4818, y = 2
+Vehicle 356 (oracle k = 4824): x = 4
+  Sensor  1 : k_hat = 4823, y = 3
+  Sensor  2 : k_hat = 4825, y = 3
+  Sensor  3 : k_hat = 4824, y = 4
+Vehicle 357 (oracle k = 4826): x = 2
+  Sensor  1 : k_hat = 4825, y = 2
+  Sensor  2 : k_hat = 4828, y = 3
+  Sensor  3 : k_hat = 4826, y = 2
+Vehicle 358 (oracle k = 4827): x = 2
+  Sensor  1 : k_hat = 4827, y = 2
+  Sensor  2 : k_hat = 4830, y = 2
+  Sensor  3 : k_hat = 4828, y = 3
+Vehicle 359 (oracle k = 4828): x = 2
+  Sensor  1 : k_hat = 4828, y = 2
+  Sensor  2 : k_hat = 4830, y = 2
+  Sensor  3 : k_hat = 4829, y = 3
+Vehicle 360 (oracle k = 4830): x = 3
+  Sensor  1 : k_hat = 4830, y = 3
+  Sensor  2 : k_hat = 4832, y = 3
+  Sensor  3 : k_hat = 4831, y = 4
+Vehicle 361 (oracle k = 4850): x = 4
+  Sensor  1 : k_hat = 4849, y = 3
+  Sensor  2 : k_hat = 4849, y = 3
+  Sensor  3 : k_hat = 4849, y = 4
+Vehicle 362 (oracle k = 4852): x = 2
+  Sensor  1 : k_hat = 4852, y = 2
+  Sensor  2 : k_hat = 4854, y = 2
+  Sensor  3 : k_hat = 4853, y = 2
+Vehicle 363 (oracle k = 4855): x = 2
+  Sensor  1 : k_hat = 4856, y = 2
+  Sensor  2 : k_hat = 4858, y = 2
+  Sensor  3 : k_hat = 4857, y = 3
+Vehicle 364 (oracle k = 4868): x = 2
+  Sensor  1 : k_hat = 4869, y = 2
+  Sensor  2 : no detection
+  Sensor  3 : k_hat = 4870, y = 2
+Vehicle 365 (oracle k = 4874): x = 2
+  Sensor  1 : k_hat = 4873, y = 2
+  Sensor  2 : k_hat = 4874, y = 2
+  Sensor  3 : k_hat = 4874, y = 3
+Vehicle 366 (oracle k = 4886): x = 2
+  Sensor  1 : k_hat = 4885, y = 2
+  Sensor  2 : k_hat = 4885, y = 2
+  Sensor  3 : k_hat = 4885, y = 3
+Vehicle 367 (oracle k = 4906): x = 2
+  Sensor  1 : k_hat = 4907, y = 2
+  Sensor  2 : k_hat = 4908, y = 2
+  Sensor  3 : k_hat = 4908, y = 3
+Vehicle 368 (oracle k = 4909): x = 2
+  Sensor  1 : k_hat = 4909, y = 2
+  Sensor  2 : k_hat = 4908, y = 2
+  Sensor  3 : k_hat = 4910, y = 2
+Vehicle 369 (oracle k = 4911): x = 2
+  Sensor  1 : k_hat = 4910, y = 2
+  Sensor  2 : k_hat = 4911, y = 2
+  Sensor  3 : k_hat = 4911, y = 3
+Vehicle 370 (oracle k = 4916): x = 2
+  Sensor  1 : k_hat = 4916, y = 2
+  Sensor  2 : k_hat = 4918, y = 2
+  Sensor  3 : k_hat = 4917, y = 2
+Vehicle 371 (oracle k = 4922): x = 2
+  Sensor  1 : k_hat = 4922, y = 2
+  Sensor  2 : k_hat = 4921, y = 2
+  Sensor  3 : k_hat = 4921, y = 2
+Vehicle 372 (oracle k = 4923): x = 2
+  Sensor  1 : no detection
+  Sensor  2 : k_hat = 4923, y = 2
+  Sensor  3 : k_hat = 4923, y = 2
+Vehicle 373 (oracle k = 4943): x = 2
+  Sensor  1 : k_hat = 4943, y = 2
+  Sensor  2 : k_hat = 4945, y = 3
+  Sensor  3 : k_hat = 4945, y = 4
+Vehicle 374 (oracle k = 4946): x = 4
+  Sensor  1 : no detection
+  Sensor  2 : k_hat = 4948, y = 2
+  Sensor  3 : k_hat = 4945, y = 4
+Vehicle 375 (oracle k = 4952): x = 2
+  Sensor  1 : k_hat = 4951, y = 2
+  Sensor  2 : k_hat = 4952, y = 2
+  Sensor  3 : k_hat = 4952, y = 2
+Vehicle 376 (oracle k = 4956): x = 2
+  Sensor  1 : k_hat = 4955, y = 2
+  Sensor  2 : k_hat = 4956, y = 2
+  Sensor  3 : k_hat = 4956, y = 2
+Vehicle 377 (oracle k = 5015): x = 2
+  Sensor  1 : k_hat = 5015, y = 2
+  Sensor  2 : k_hat = 5016, y = 2
+  Sensor  3 : k_hat = 5016, y = 2
+Vehicle 378 (oracle k = 5029): x = 2
+  Sensor  1 : k_hat = 5029, y = 2
+  Sensor  2 : no detection
+  Sensor  3 : k_hat = 5030, y = 2
+Vehicle 379 (oracle k = 5042): x = 2
+  Sensor  1 : k_hat = 5042, y = 2
+  Sensor  2 : k_hat = 5043, y = 2
+  Sensor  3 : k_hat = 5043, y = 2
+Vehicle 380 (oracle k = 5054): x = 2
+  Sensor  1 : k_hat = 5054, y = 2
+  Sensor  2 : k_hat = 5054, y = 2
+  Sensor  3 : k_hat = 5054, y = 2
+Vehicle 381 (oracle k = 5055): x = 2
+  Sensor  1 : no detection
+  Sensor  2 : k_hat = 5055, y = 2
+  Sensor  3 : k_hat = 5055, y = 3
+Vehicle 382 (oracle k = 5056): x = 2
+  Sensor  1 : k_hat = 5056, y = 2
+  Sensor  2 : k_hat = 5056, y = 2
+  Sensor  3 : k_hat = 5056, y = 2
+Vehicle 383 (oracle k = 5063): x = 2
+  Sensor  1 : k_hat = 5063, y = 2
+  Sensor  2 : k_hat = 5062, y = 2
+  Sensor  3 : k_hat = 5063, y = 2
+Vehicle 384 (oracle k = 5081): x = 4
+  Sensor  1 : no detection
+  Sensor  2 : k_hat = 5079, y = 4
+  Sensor  3 : k_hat = 5079, y = 4
+Vehicle 385 (oracle k = 5110): x = 2
+  Sensor  1 : k_hat = 5109, y = 2
+  Sensor  2 : k_hat = 5111, y = 2
+  Sensor  3 : k_hat = 5110, y = 2
+Vehicle 386 (oracle k = 5117): x = 2
+  Sensor  1 : k_hat = 5116, y = 2
+  Sensor  2 : k_hat = 5118, y = 2
+  Sensor  3 : k_hat = 5117, y = 2
+Vehicle 387 (oracle k = 5123): x = 4
+  Sensor  1 : no detection
+  Sensor  2 : k_hat = 5125, y = 4
+  Sensor  3 : k_hat = 5125, y = 4
+Vehicle 388 (oracle k = 5134): x = 2
+  Sensor  1 : k_hat = 5135, y = 2
+  Sensor  2 : k_hat = 5137, y = 2
+  Sensor  3 : k_hat = 5136, y = 3
+Vehicle 389 (oracle k = 5188): x = 2
+  Sensor  1 : k_hat = 5187, y = 2
+  Sensor  2 : k_hat = 5189, y = 2
+  Sensor  3 : k_hat = 5188, y = 3
+Vehicle 390 (oracle k = 5195): x = 2
+  Sensor  1 : k_hat = 5194, y = 2
+  Sensor  2 : k_hat = 5194, y = 2
+  Sensor  3 : k_hat = 5195, y = 2
+Vehicle 391 (oracle k = 5222): x = 2
+  Sensor  1 : k_hat = 5221, y = 2
+  Sensor  2 : k_hat = 5221, y = 2
+  Sensor  3 : k_hat = 5222, y = 2
+Vehicle 392 (oracle k = 5282): x = 2
+  Sensor  1 : k_hat = 5281, y = 2
+  Sensor  2 : k_hat = 5282, y = 2
+  Sensor  3 : k_hat = 5282, y = 2
+Vehicle 393 (oracle k = 5298): x = 2
+  Sensor  1 : k_hat = 5297, y = 3
+  Sensor  2 : k_hat = 5299, y = 2
+  Sensor  3 : k_hat = 5298, y = 2
+Vehicle 394 (oracle k = 5310): x = 2
+  Sensor  1 : k_hat = 5309, y = 2
+  Sensor  2 : k_hat = 5310, y = 2
+  Sensor  3 : k_hat = 5310, y = 3
+Vehicle 395 (oracle k = 5328): x = 2
+  Sensor  1 : k_hat = 5328, y = 2
+  Sensor  2 : k_hat = 5328, y = 2
+  Sensor  3 : k_hat = 5329, y = 2
+Vehicle 396 (oracle k = 5343): x = 2
+  Sensor  1 : k_hat = 5342, y = 2
+  Sensor  2 : no detection
+  Sensor  3 : k_hat = 5343, y = 2
+Vehicle 397 (oracle k = 5351): x = 2
+  Sensor  1 : k_hat = 5351, y = 2
+  Sensor  2 : k_hat = 5351, y = 2
+  Sensor  3 : k_hat = 5351, y = 2
+Vehicle 398 (oracle k = 5352): x = 2
+  Sensor  1 : k_hat = 5352, y = 2
+  Sensor  2 : k_hat = 5352, y = 2
+  Sensor  3 : k_hat = 5352, y = 3
+Vehicle 399 (oracle k = 5359): x = 2
+  Sensor  1 : k_hat = 5359, y = 2
+  Sensor  2 : k_hat = 5362, y = 2
+  Sensor  3 : k_hat = 5360, y = 3
+Vehicle 400 (oracle k = 5365): x = 3
+  Sensor  1 : k_hat = 5365, y = 2
+  Sensor  2 : k_hat = 5368, y = 2
+  Sensor  3 : k_hat = 5367, y = 2
+Vehicle 401 (oracle k = 5373): x = 2
+  Sensor  1 : k_hat = 5373, y = 2
+  Sensor  2 : k_hat = 5375, y = 2
+  Sensor  3 : k_hat = 5374, y = 2
+Vehicle 402 (oracle k = 5383): x = 2
+  Sensor  1 : k_hat = 5383, y = 2
+  Sensor  2 : k_hat = 5383, y = 2
+  Sensor  3 : k_hat = 5383, y = 2
+Vehicle 403 (oracle k = 5401): x = 2
+  Sensor  1 : k_hat = 5402, y = 2
+  Sensor  2 : no detection
+  Sensor  3 : no detection
+Vehicle 404 (oracle k = 5404): x = 2
+  Sensor  1 : k_hat = 5403, y = 2
+  Sensor  2 : k_hat = 5405, y = 2
+  Sensor  3 : k_hat = 5404, y = 2
+Vehicle 405 (oracle k = 5435): x = 3
+  Sensor  1 : k_hat = 5435, y = 2
+  Sensor  2 : k_hat = 5436, y = 3
+  Sensor  3 : k_hat = 5436, y = 3
+Vehicle 406 (oracle k = 5440): x = 4
+  Sensor  1 : no detection
+  Sensor  2 : k_hat = 5443, y = 3
+  Sensor  3 : no detection
+Vehicle 407 (oracle k = 5465): x = 2
+  Sensor  1 : k_hat = 5464, y = 2
+  Sensor  2 : no detection
+  Sensor  3 : k_hat = 5465, y = 2
+Vehicle 408 (oracle k = 5484): x = 2
+  Sensor  1 : k_hat = 5483, y = 2
+  Sensor  2 : k_hat = 5483, y = 2
+  Sensor  3 : k_hat = 5484, y = 2
+Vehicle 409 (oracle k = 5514): x = 4
+  Sensor  1 : k_hat = 5513, y = 3
+  Sensor  2 : k_hat = 5516, y = 3
+  Sensor  3 : k_hat = 5515, y = 4
+Vehicle 410 (oracle k = 5516): x = 2
+  Sensor  1 : k_hat = 5515, y = 2
+  Sensor  2 : k_hat = 5518, y = 2
+  Sensor  3 : k_hat = 5516, y = 2
+Vehicle 411 (oracle k = 5558): x = 2
+  Sensor  1 : k_hat = 5557, y = 2
+  Sensor  2 : k_hat = 5558, y = 2
+  Sensor  3 : k_hat = 5558, y = 2
+Vehicle 412 (oracle k = 5567): x = 2
+  Sensor  1 : k_hat = 5566, y = 2
+  Sensor  2 : k_hat = 5567, y = 2
+  Sensor  3 : k_hat = 5567, y = 2
+Vehicle 413 (oracle k = 5570): x = 2
+  Sensor  1 : k_hat = 5571, y = 2
+  Sensor  2 : k_hat = 5571, y = 2
+  Sensor  3 : k_hat = 5570, y = 2
+Vehicle 414 (oracle k = 5572): x = 2
+  Sensor  1 : k_hat = 5571, y = 2
+  Sensor  2 : k_hat = 5574, y = 2
+  Sensor  3 : k_hat = 5573, y = 2
+Vehicle 415 (oracle k = 5593): x = 2
+  Sensor  1 : k_hat = 5593, y = 2
+  Sensor  2 : k_hat = 5593, y = 2
+  Sensor  3 : k_hat = 5594, y = 2
+Vehicle 416 (oracle k = 5598): x = 2
+  Sensor  1 : k_hat = 5598, y = 2
+  Sensor  2 : k_hat = 5598, y = 2
+  Sensor  3 : k_hat = 5599, y = 2
+Vehicle 417 (oracle k = 5650): x = 2
+  Sensor  1 : k_hat = 5650, y = 2
+  Sensor  2 : k_hat = 5653, y = 2
+  Sensor  3 : no detection
+Vehicle 418 (oracle k = 5654): x = 2
+  Sensor  1 : k_hat = 5653, y = 2
+  Sensor  2 : k_hat = 5653, y = 2
+  Sensor  3 : no detection
+Vehicle 419 (oracle k = 5656): x = 2
+  Sensor  1 : k_hat = 5656, y = 2
+  Sensor  2 : k_hat = 5656, y = 2
+  Sensor  3 : k_hat = 5656, y = 2
+Vehicle 420 (oracle k = 5658): x = 2
+  Sensor  1 : k_hat = 5657, y = 2
+  Sensor  2 : k_hat = 5658, y = 2
+  Sensor  3 : k_hat = 5658, y = 2
+Vehicle 421 (oracle k = 5688): x = 3
+  Sensor  1 : k_hat = 5689, y = 3
+  Sensor  2 : k_hat = 5688, y = 3
+  Sensor  3 : k_hat = 5688, y = 4
+Vehicle 422 (oracle k = 5690): x = 4
+  Sensor  1 : k_hat = 5689, y = 3
+  Sensor  2 : k_hat = 5691, y = 3
+  Sensor  3 : k_hat = 5691, y = 4
+Vehicle 423 (oracle k = 5694): x = 2
+  Sensor  1 : k_hat = 5694, y = 2
+  Sensor  2 : k_hat = 5695, y = 2
+  Sensor  3 : k_hat = 5695, y = 2
+Vehicle 424 (oracle k = 5696): x = 2
+  Sensor  1 : k_hat = 5696, y = 2
+  Sensor  2 : k_hat = 5697, y = 2
+  Sensor  3 : k_hat = 5697, y = 2
+Vehicle 425 (oracle k = 5732): x = 2
+  Sensor  1 : k_hat = 5731, y = 2
+  Sensor  2 : k_hat = 5732, y = 2
+  Sensor  3 : k_hat = 5732, y = 2
+Vehicle 426 (oracle k = 5756): x = 2
+  Sensor  1 : k_hat = 5756, y = 2
+  Sensor  2 : k_hat = 5756, y = 2
+  Sensor  3 : k_hat = 5757, y = 3
+Vehicle 427 (oracle k = 5764): x = 2
+  Sensor  1 : k_hat = 5763, y = 2
+  Sensor  2 : k_hat = 5763, y = 2
+  Sensor  3 : k_hat = 5764, y = 3
+Vehicle 428 (oracle k = 5777): x = 4
+  Sensor  1 : k_hat = 5777, y = 2
+  Sensor  2 : k_hat = 5777, y = 3
+  Sensor  3 : k_hat = 5777, y = 4
+Vehicle 429 (oracle k = 5778): x = 2
+  Sensor  1 : k_hat = 5778, y = 2
+  Sensor  2 : k_hat = 5780, y = 2
+  Sensor  3 : k_hat = 5778, y = 2
+Vehicle 430 (oracle k = 5779): x = 2
+  Sensor  1 : no detection
+  Sensor  2 : k_hat = 5779, y = 2
+  Sensor  3 : k_hat = 5779, y = 2
+Vehicle 431 (oracle k = 5813): x = 2
+  Sensor  1 : k_hat = 5813, y = 2
+  Sensor  2 : k_hat = 5814, y = 2
+  Sensor  3 : k_hat = 5814, y = 2
+Vehicle 432 (oracle k = 5837): x = 2
+  Sensor  1 : k_hat = 5836, y = 2
+  Sensor  2 : k_hat = 5836, y = 2
+  Sensor  3 : k_hat = 5836, y = 2
+Vehicle 433 (oracle k = 5840): x = 2
+  Sensor  1 : k_hat = 5840, y = 2
+  Sensor  2 : k_hat = 5840, y = 2
+  Sensor  3 : k_hat = 5841, y = 3
+Vehicle 434 (oracle k = 5884): x = 2
+  Sensor  1 : k_hat = 5884, y = 2
+  Sensor  2 : k_hat = 5884, y = 2
+  Sensor  3 : k_hat = 5885, y = 3
+Vehicle 435 (oracle k = 5889): x = 2
+  Sensor  1 : k_hat = 5889, y = 2
+  Sensor  2 : k_hat = 5891, y = 2
+  Sensor  3 : k_hat = 5891, y = 2
+Vehicle 436 (oracle k = 5894): x = 2
+  Sensor  1 : k_hat = 5894, y = 2
+  Sensor  2 : k_hat = 5895, y = 2
+  Sensor  3 : k_hat = 5895, y = 2
+Vehicle 437 (oracle k = 5902): x = 2
+  Sensor  1 : k_hat = 5902, y = 2
+  Sensor  2 : k_hat = 5902, y = 2
+  Sensor  3 : k_hat = 5902, y = 3
+Vehicle 438 (oracle k = 5920): x = 4
+  Sensor  1 : k_hat = 5919, y = 3
+  Sensor  2 : k_hat = 5919, y = 3
+  Sensor  3 : k_hat = 5919, y = 4
+Vehicle 439 (oracle k = 5954): x = 2
+  Sensor  1 : k_hat = 5955, y = 2
+  Sensor  2 : k_hat = 5954, y = 2
+  Sensor  3 : k_hat = 5956, y = 2
+Vehicle 440 (oracle k = 5957): x = 2
+  Sensor  1 : k_hat = 5958, y = 3
+  Sensor  2 : k_hat = 5956, y = 2
+  Sensor  3 : k_hat = 5958, y = 4
+Vehicle 441 (oracle k = 5959): x = 4
+  Sensor  1 : k_hat = 5958, y = 3
+  Sensor  2 : k_hat = 5958, y = 3
+  Sensor  3 : k_hat = 5958, y = 4
+Vehicle 442 (oracle k = 5967): x = 2
+  Sensor  1 : k_hat = 5966, y = 2
+  Sensor  2 : k_hat = 5967, y = 2
+  Sensor  3 : k_hat = 5967, y = 2
+Vehicle 443 (oracle k = 5981): x = 2
+  Sensor  1 : k_hat = 5980, y = 2
+  Sensor  2 : k_hat = 5979, y = 2
+  Sensor  3 : k_hat = 5980, y = 2
+Vehicle 444 (oracle k = 5986): x = 2
+  Sensor  1 : k_hat = 5985, y = 2
+  Sensor  2 : k_hat = 5985, y = 2
+  Sensor  3 : no detection
+Vehicle 445 (oracle k = 6014): x = 2
+  Sensor  1 : k_hat = 6013, y = 2
+  Sensor  2 : k_hat = 6015, y = 2
+  Sensor  3 : k_hat = 6015, y = 3
+Vehicle 446 (oracle k = 6036): x = 2
+  Sensor  1 : k_hat = 6035, y = 2
+  Sensor  2 : k_hat = 6036, y = 2
+  Sensor  3 : k_hat = 6036, y = 2
+Vehicle 447 (oracle k = 6044): x = 2
+  Sensor  1 : k_hat = 6043, y = 2
+  Sensor  2 : k_hat = 6044, y = 2
+  Sensor  3 : k_hat = 6044, y = 2
+Vehicle 448 (oracle k = 6046): x = 2
+  Sensor  1 : k_hat = 6046, y = 2
+  Sensor  2 : no detection
+  Sensor  3 : k_hat = 6047, y = 2
+Vehicle 449 (oracle k = 6048): x = 2
+  Sensor  1 : k_hat = 6047, y = 2
+  Sensor  2 : k_hat = 6048, y = 2
+  Sensor  3 : k_hat = 6048, y = 2
+Vehicle 450 (oracle k = 6053): x = 2
+  Sensor  1 : k_hat = 6052, y = 2
+  Sensor  2 : k_hat = 6054, y = 2
+  Sensor  3 : k_hat = 6053, y = 2
+Vehicle 451 (oracle k = 6067): x = 2
+  Sensor  1 : k_hat = 6066, y = 2
+  Sensor  2 : k_hat = 6066, y = 2
+  Sensor  3 : k_hat = 6067, y = 2
+Vehicle 452 (oracle k = 6075): x = 2
+  Sensor  1 : k_hat = 6074, y = 2
+  Sensor  2 : k_hat = 6078, y = 2
+  Sensor  3 : k_hat = 6075, y = 2
+Vehicle 453 (oracle k = 6077): x = 2
+  Sensor  1 : k_hat = 6077, y = 2
+  Sensor  2 : k_hat = 6078, y = 2
+  Sensor  3 : k_hat = 6078, y = 2
+Vehicle 454 (oracle k = 6129): x = 2
+  Sensor  1 : k_hat = 6128, y = 2
+  Sensor  2 : k_hat = 6130, y = 2
+  Sensor  3 : k_hat = 6129, y = 2
+Vehicle 455 (oracle k = 6142): x = 2
+  Sensor  1 : k_hat = 6141, y = 2
+  Sensor  2 : k_hat = 6142, y = 2
+  Sensor  3 : k_hat = 6142, y = 2
+Vehicle 456 (oracle k = 6166): x = 4
+  Sensor  1 : k_hat = 6165, y = 3
+  Sensor  2 : k_hat = 6165, y = 3
+  Sensor  3 : k_hat = 6165, y = 2
+Vehicle 457 (oracle k = 6201): x = 2
+  Sensor  1 : k_hat = 6200, y = 2
+  Sensor  2 : k_hat = 6199, y = 2
+  Sensor  3 : k_hat = 6200, y = 3
+Vehicle 458 (oracle k = 6209): x = 2
+  Sensor  1 : k_hat = 6208, y = 2
+  Sensor  2 : k_hat = 6208, y = 2
+  Sensor  3 : k_hat = 6209, y = 2
+Vehicle 459 (oracle k = 6236): x = 3
+  Sensor  1 : k_hat = 6237, y = 3
+  Sensor  2 : k_hat = 6238, y = 3
+  Sensor  3 : k_hat = 6238, y = 3
+Vehicle 460 (oracle k = 6245): x = 2
+  Sensor  1 : k_hat = 6244, y = 2
+  Sensor  2 : k_hat = 6246, y = 2
+  Sensor  3 : k_hat = 6245, y = 3
+Vehicle 461 (oracle k = 6289): x = 2
+  Sensor  1 : no detection
+  Sensor  2 : k_hat = 6288, y = 2
+  Sensor  3 : k_hat = 6288, y = 3
+Vehicle 462 (oracle k = 6293): x = 2
+  Sensor  1 : k_hat = 6293, y = 2
+  Sensor  2 : k_hat = 6294, y = 2
+  Sensor  3 : k_hat = 6294, y = 2
+Vehicle 463 (oracle k = 6295): x = 3
+  Sensor  1 : k_hat = 6295, y = 3
+  Sensor  2 : k_hat = 6296, y = 3
+  Sensor  3 : k_hat = 6296, y = 4
+Vehicle 464 (oracle k = 6313): x = 2
+  Sensor  1 : k_hat = 6312, y = 3
+  Sensor  2 : k_hat = 6313, y = 2
+  Sensor  3 : k_hat = 6313, y = 3
+Vehicle 465 (oracle k = 6315): x = 2
+  Sensor  1 : k_hat = 6315, y = 2
+  Sensor  2 : k_hat = 6316, y = 2
+  Sensor  3 : k_hat = 6316, y = 2
+Vehicle 466 (oracle k = 6324): x = 2
+  Sensor  1 : k_hat = 6323, y = 2
+  Sensor  2 : k_hat = 6323, y = 2
+  Sensor  3 : k_hat = 6324, y = 2
+Vehicle 467 (oracle k = 6348): x = 2
+  Sensor  1 : k_hat = 6348, y = 2
+  Sensor  2 : k_hat = 6347, y = 2
+  Sensor  3 : k_hat = 6348, y = 3
+Vehicle 468 (oracle k = 6371): x = 2
+  Sensor  1 : k_hat = 6371, y = 2
+  Sensor  2 : k_hat = 6372, y = 2
+  Sensor  3 : k_hat = 6372, y = 3
+Vehicle 469 (oracle k = 6375): x = 3
+  Sensor  1 : no detection
+  Sensor  2 : k_hat = 6374, y = 3
+  Sensor  3 : k_hat = 6374, y = 4
+Vehicle 470 (oracle k = 6378): x = 2
+  Sensor  1 : k_hat = 6377, y = 2
+  Sensor  2 : k_hat = 6377, y = 2
+  Sensor  3 : k_hat = 6378, y = 2
+Vehicle 471 (oracle k = 6384): x = 4
+  Sensor  1 : k_hat = 6383, y = 3
+  Sensor  2 : k_hat = 6384, y = 3
+  Sensor  3 : k_hat = 6384, y = 4
+Vehicle 472 (oracle k = 6387): x = 2
+  Sensor  1 : k_hat = 6387, y = 2
+  Sensor  2 : k_hat = 6384, y = 3
+  Sensor  3 : k_hat = 6388, y = 2
+Vehicle 473 (oracle k = 6419): x = 2
+  Sensor  1 : k_hat = 6419, y = 2
+  Sensor  2 : k_hat = 6418, y = 2
+  Sensor  3 : k_hat = 6419, y = 2
+Vehicle 474 (oracle k = 6428): x = 2
+  Sensor  1 : k_hat = 6428, y = 2
+  Sensor  2 : k_hat = 6426, y = 2
+  Sensor  3 : k_hat = 6428, y = 2
+Vehicle 475 (oracle k = 6468): x = 2
+  Sensor  1 : k_hat = 6469, y = 2
+  Sensor  2 : k_hat = 6469, y = 2
+  Sensor  3 : k_hat = 6468, y = 3
+Vehicle 476 (oracle k = 6470): x = 2
+  Sensor  1 : k_hat = 6469, y = 2
+  Sensor  2 : k_hat = 6469, y = 2
+  Sensor  3 : k_hat = 6470, y = 2
+Vehicle 477 (oracle k = 6471): x = 2
+  Sensor  1 : k_hat = 6471, y = 2
+  Sensor  2 : k_hat = 6471, y = 2
+  Sensor  3 : k_hat = 6471, y = 2
+Vehicle 478 (oracle k = 6484): x = 1
+  Sensor  1 : no detection
+  Sensor  2 : k_hat = 6484, y = 1
+  Sensor  3 : k_hat = 6483, y = 2
+Vehicle 479 (oracle k = 6491): x = 2
+  Sensor  1 : k_hat = 6491, y = 2
+  Sensor  2 : k_hat = 6489, y = 2
+  Sensor  3 : k_hat = 6491, y = 2
+Vehicle 480 (oracle k = 6513): x = 2
+  Sensor  1 : k_hat = 6512, y = 2
+  Sensor  2 : k_hat = 6513, y = 2
+  Sensor  3 : k_hat = 6513, y = 3
+Vehicle 481 (oracle k = 6521): x = 2
+  Sensor  1 : k_hat = 6521, y = 2
+  Sensor  2 : k_hat = 6522, y = 2
+  Sensor  3 : k_hat = 6522, y = 2
+Vehicle 482 (oracle k = 6526): x = 2
+  Sensor  1 : k_hat = 6525, y = 2
+  Sensor  2 : k_hat = 6525, y = 2
+  Sensor  3 : k_hat = 6525, y = 2
+Vehicle 483 (oracle k = 6530): x = 2
+  Sensor  1 : k_hat = 6529, y = 2
+  Sensor  2 : k_hat = 6530, y = 2
+  Sensor  3 : k_hat = 6530, y = 2
+Vehicle 484 (oracle k = 6535): x = 2
+  Sensor  1 : no detection
+  Sensor  2 : k_hat = 6534, y = 2
+  Sensor  3 : k_hat = 6534, y = 2
+Vehicle 485 (oracle k = 6541): x = 2
+  Sensor  1 : k_hat = 6542, y = 2
+  Sensor  2 : k_hat = 6542, y = 2
+  Sensor  3 : k_hat = 6541, y = 3
+Vehicle 486 (oracle k = 6543): x = 2
+  Sensor  1 : k_hat = 6542, y = 2
+  Sensor  2 : k_hat = 6543, y = 2
+  Sensor  3 : k_hat = 6543, y = 2
+Vehicle 487 (oracle k = 6547): x = 2
+  Sensor  1 : k_hat = 6546, y = 2
+  Sensor  2 : k_hat = 6546, y = 2
+  Sensor  3 : k_hat = 6547, y = 2
+Vehicle 488 (oracle k = 6552): x = 3
+  Sensor  1 : k_hat = 6551, y = 3
+  Sensor  2 : k_hat = 6551, y = 2
+  Sensor  3 : k_hat = 6551, y = 3
+Vehicle 489 (oracle k = 6561): x = 2
+  Sensor  1 : k_hat = 6561, y = 2
+  Sensor  2 : no detection
+  Sensor  3 : no detection
+Vehicle 490 (oracle k = 6622): x = 2
+  Sensor  1 : k_hat = 6621, y = 2
+  Sensor  2 : k_hat = 6622, y = 2
+  Sensor  3 : k_hat = 6622, y = 2
+Vehicle 491 (oracle k = 6633): x = 2
+  Sensor  1 : k_hat = 6632, y = 2
+  Sensor  2 : k_hat = 6631, y = 2
+  Sensor  3 : k_hat = 6632, y = 3
+Vehicle 492 (oracle k = 6635): x = 3
+  Sensor  1 : k_hat = 6634, y = 3
+  Sensor  2 : k_hat = 6634, y = 3
+  Sensor  3 : k_hat = 6635, y = 4
+Vehicle 493 (oracle k = 6638): x = 2
+  Sensor  1 : k_hat = 6638, y = 2
+  Sensor  2 : k_hat = 6638, y = 2
+  Sensor  3 : k_hat = 6638, y = 3
+Vehicle 494 (oracle k = 6644): x = 4
+  Sensor  1 : k_hat = 6643, y = 3
+  Sensor  2 : k_hat = 6645, y = 3
+  Sensor  3 : k_hat = 6644, y = 3
+Vehicle 495 (oracle k = 6658): x = 3 ------- 
+  Sensor  1 : no detection
+  Sensor  2 : no detection
+  Sensor  3 : no detection
+Vehicle 496 (oracle k = 6698): x = 3
+  Sensor  1 : k_hat = 6697, y = 2
+  Sensor  2 : k_hat = 6696, y = 2
+  Sensor  3 : no detection
+Vehicle 497 (oracle k = 6709): x = 2
+  Sensor  1 : k_hat = 6710, y = 2
+  Sensor  2 : k_hat = 6708, y = 2
+  Sensor  3 : k_hat = 6710, y = 3
+Vehicle 498 (oracle k = 6764): x = 2
+  Sensor  1 : k_hat = 6763, y = 2
+  Sensor  2 : k_hat = 6763, y = 2
+  Sensor  3 : k_hat = 6763, y = 2
+Vehicle 499 (oracle k = 6800): x = 2
+  Sensor  1 : k_hat = 6799, y = 2
+  Sensor  2 : k_hat = 6800, y = 2
+  Sensor  3 : k_hat = 6800, y = 2
+Vehicle 500 (oracle k = 6820): x = 2
+  Sensor  1 : k_hat = 6821, y = 2
+  Sensor  2 : k_hat = 6817, y = 2
+  Sensor  3 : no detection
+Vehicle 501 (oracle k = 6823): x = 2
+  Sensor  1 : no detection
+  Sensor  2 : k_hat = 6824, y = 2
+  Sensor  3 : k_hat = 6823, y = 2
+Vehicle 502 (oracle k = 6826): x = 2
+  Sensor  1 : k_hat = 6825, y = 2
+  Sensor  2 : k_hat = 6826, y = 2
+  Sensor  3 : no detection
+Vehicle 503 (oracle k = 6845): x = 2
+  Sensor  1 : k_hat = 6844, y = 2
+  Sensor  2 : k_hat = 6846, y = 2
+  Sensor  3 : k_hat = 6846, y = 3
+Vehicle 504 (oracle k = 6853): x = 2
+  Sensor  1 : k_hat = 6852, y = 2
+  Sensor  2 : k_hat = 6854, y = 2
+  Sensor  3 : k_hat = 6853, y = 3
+Vehicle 505 (oracle k = 6856): x = 2
+  Sensor  1 : k_hat = 6855, y = 2
+  Sensor  2 : k_hat = 6856, y = 2
+  Sensor  3 : k_hat = 6856, y = 3
+Vehicle 506 (oracle k = 6874): x = 2
+  Sensor  1 : k_hat = 6873, y = 2
+  Sensor  2 : k_hat = 6873, y = 2
+  Sensor  3 : k_hat = 6874, y = 2
+Vehicle 507 (oracle k = 6887): x = 2
+  Sensor  1 : k_hat = 6887, y = 2
+  Sensor  2 : k_hat = 6889, y = 2
+  Sensor  3 : k_hat = 6887, y = 3
+Vehicle 508 (oracle k = 6888): x = 2
+  Sensor  1 : no detection
+  Sensor  2 : k_hat = 6889, y = 2
+  Sensor  3 : k_hat = 6888, y = 2
+Vehicle 509 (oracle k = 6894): x = 2
+  Sensor  1 : k_hat = 6894, y = 2
+  Sensor  2 : k_hat = 6896, y = 2
+  Sensor  3 : k_hat = 6895, y = 2
+Vehicle 510 (oracle k = 6905): x = 2
+  Sensor  1 : k_hat = 6905, y = 2
+  Sensor  2 : k_hat = 6906, y = 2
+  Sensor  3 : k_hat = 6906, y = 2
+Vehicle 511 (oracle k = 6908): x = 2
+  Sensor  1 : k_hat = 6907, y = 2
+  Sensor  2 : k_hat = 6908, y = 2
+  Sensor  3 : k_hat = 6908, y = 2
+Vehicle 512 (oracle k = 6916): x = 2
+  Sensor  1 : k_hat = 6916, y = 2
+  Sensor  2 : k_hat = 6916, y = 2
+  Sensor  3 : k_hat = 6917, y = 2
+Vehicle 513 (oracle k = 6922): x = 2
+  Sensor  1 : k_hat = 6922, y = 2
+  Sensor  2 : k_hat = 6922, y = 2
+  Sensor  3 : k_hat = 6923, y = 2
+Vehicle 514 (oracle k = 6924): x = 2
+  Sensor  1 : k_hat = 6924, y = 2
+  Sensor  2 : k_hat = 6925, y = 2
+  Sensor  3 : k_hat = 6925, y = 2
+Vehicle 515 (oracle k = 6935): x = 2
+  Sensor  1 : k_hat = 6934, y = 2
+  Sensor  2 : no detection
+  Sensor  3 : k_hat = 6935, y = 3
+Vehicle 516 (oracle k = 6936): x = 2
+  Sensor  1 : k_hat = 6937, y = 3
+  Sensor  2 : k_hat = 6936, y = 2
+  Sensor  3 : k_hat = 6938, y = 4
+Vehicle 517 (oracle k = 6952): x = 2
+  Sensor  1 : k_hat = 6953, y = 2
+  Sensor  2 : k_hat = 6953, y = 2
+  Sensor  3 : k_hat = 6953, y = 3
+Vehicle 518 (oracle k = 6957): x = 2
+  Sensor  1 : k_hat = 6957, y = 2
+  Sensor  2 : k_hat = 6958, y = 2
+  Sensor  3 : k_hat = 6958, y = 2
+Vehicle 519 (oracle k = 6971): x = 2
+  Sensor  1 : k_hat = 6970, y = 2
+  Sensor  2 : k_hat = 6974, y = 2
+  Sensor  3 : k_hat = 6972, y = 2
+Vehicle 520 (oracle k = 6973): x = 2
+  Sensor  1 : k_hat = 6973, y = 2
+  Sensor  2 : k_hat = 6974, y = 2
+  Sensor  3 : k_hat = 6974, y = 2
+Vehicle 521 (oracle k = 6975): x = 2
+  Sensor  1 : k_hat = 6974, y = 2
+  Sensor  2 : k_hat = 6975, y = 2
+  Sensor  3 : k_hat = 6975, y = 2
+Vehicle 522 (oracle k = 6977): x = 2
+  Sensor  1 : k_hat = 6977, y = 2
+  Sensor  2 : k_hat = 6977, y = 2
+  Sensor  3 : k_hat = 6977, y = 2
+Vehicle 523 (oracle k = 6991): x = 4
+  Sensor  1 : k_hat = 6990, y = 3
+  Sensor  2 : k_hat = 6989, y = 3
+  Sensor  3 : k_hat = 6990, y = 4
+Vehicle 524 (oracle k = 7011): x = 2
+  Sensor  1 : k_hat = 7012, y = 2
+  Sensor  2 : k_hat = 7014, y = 2
+  Sensor  3 : k_hat = 7013, y = 3
+Vehicle 525 (oracle k = 7019): x = 2
+  Sensor  1 : k_hat = 7019, y = 2
+  Sensor  2 : k_hat = 7022, y = 2
+  Sensor  3 : k_hat = 7020, y = 2
+Vehicle 526 (oracle k = 7023): x = 2
+  Sensor  1 : no detection
+  Sensor  2 : k_hat = 7022, y = 2
+  Sensor  3 : k_hat = 7022, y = 2
+Vehicle 527 (oracle k = 7027): x = 2
+  Sensor  1 : k_hat = 7026, y = 2
+  Sensor  2 : k_hat = 7027, y = 2
+  Sensor  3 : k_hat = 7027, y = 2
+Vehicle 528 (oracle k = 7029): x = 2
+  Sensor  1 : k_hat = 7029, y = 2
+  Sensor  2 : k_hat = 7030, y = 2
+  Sensor  3 : k_hat = 7030, y = 2
+Vehicle 529 (oracle k = 7031): x = 2
+  Sensor  1 : k_hat = 7030, y = 2
+  Sensor  2 : k_hat = 7032, y = 2
+  Sensor  3 : k_hat = 7031, y = 2
+Vehicle 530 (oracle k = 7051): x = 2
+  Sensor  1 : k_hat = 7050, y = 2
+  Sensor  2 : k_hat = 7053, y = 2
+  Sensor  3 : k_hat = 7050, y = 2
+Vehicle 531 (oracle k = 7054): x = 2
+  Sensor  1 : k_hat = 7054, y = 2
+  Sensor  2 : k_hat = 7053, y = 2
+  Sensor  3 : k_hat = 7054, y = 2
+Vehicle 532 (oracle k = 7074): x = 2
+  Sensor  1 : k_hat = 7073, y = 2
+  Sensor  2 : k_hat = 7074, y = 2
+  Sensor  3 : k_hat = 7074, y = 2
+Vehicle 533 (oracle k = 7105): x = 2
+  Sensor  1 : k_hat = 7105, y = 2
+  Sensor  2 : k_hat = 7105, y = 2
+  Sensor  3 : k_hat = 7105, y = 2
+Vehicle 534 (oracle k = 7110): x = 2
+  Sensor  1 : k_hat = 7110, y = 2
+  Sensor  2 : k_hat = 7111, y = 2
+  Sensor  3 : k_hat = 7111, y = 2
+Vehicle 535 (oracle k = 7119): x = 2
+  Sensor  1 : k_hat = 7118, y = 2
+  Sensor  2 : k_hat = 7119, y = 2
+  Sensor  3 : k_hat = 7119, y = 2
+Vehicle 536 (oracle k = 7141): x = 2
+  Sensor  1 : k_hat = 7142, y = 2
+  Sensor  2 : k_hat = 7141, y = 2
+  Sensor  3 : k_hat = 7141, y = 2
+Vehicle 537 (oracle k = 7143): x = 2
+  Sensor  1 : k_hat = 7142, y = 2
+  Sensor  2 : k_hat = 7142, y = 2
+  Sensor  3 : k_hat = 7142, y = 2
+Vehicle 538 (oracle k = 7153): x = 2
+  Sensor  1 : k_hat = 7153, y = 2
+  Sensor  2 : k_hat = 7155, y = 2
+  Sensor  3 : k_hat = 7154, y = 2
+Vehicle 539 (oracle k = 7170): x = 2
+  Sensor  1 : k_hat = 7169, y = 2
+  Sensor  2 : k_hat = 7168, y = 2
+  Sensor  3 : no detection
+
+Redundant sensor subsets (removable without total loss of association):
+  None
+Total failures: 3
+
+Vehicle class mismatches per sensor:
+Sensor  1: 39 mismatches over 498 associations
+Sensor  2: 46 mismatches over 510 associations
+Sensor  3: 144 mismatches over 501 associations
