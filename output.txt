@@ -1,3 +1,5 @@
+Starting parallel pool (parpool) using the 'Processes' profile ...
+Connected to parallel pool with 8 workers.
 
 shifts =
 
@@ -2209,6 +2211,69 @@ Vehicle 539 (oracle k = 7170): x = 2
   Sensor  1 : k_hat = 7169, y = 2
   Sensor  2 : k_hat = 7168, y = 2
   Sensor  3 : no detection
+
+Confusion_Matrix(:,:,1) =
+
+     0     0     0     0     2
+     0   435    10     1    21
+     0     7    20     0     6
+     0     1    20     4    12
+
+
+Confusion_Matrix(:,:,2) =
+
+     1     1     0     0     0
+     2   431     7     0    27
+     0     7    25     0     1
+     0     1    28     7     1
+
+
+Confusion_Matrix(:,:,3) =
+
+     0     2     0     0     0
+     0   318   109     7    33
+     0     2     9    18     4
+     0     2     4    30     1
+
+==================================================
+       EVALUATION RESULTS FOR SLICE n = 1       
+==================================================
+Global Accuracy : 92.17%
+MCC             : 0.6091
+
+Per-Class Breakdown:
+  Class 1 -> Precision:   0.00% | Recall:   0.00%
+  Class 2 -> Precision:  98.19% | Recall:  97.53%
+  Class 3 -> Precision:  40.00% | Recall:  74.07%
+  Class 4 -> Precision:  80.00% | Recall:  16.00%
+==================================================
+
+==================================================
+       EVALUATION RESULTS FOR SLICE n = 2       
+==================================================
+Global Accuracy : 90.98%
+MCC             : 0.6434
+
+Per-Class Breakdown:
+  Class 1 -> Precision:  33.33% | Recall:  50.00%
+  Class 2 -> Precision:  97.95% | Recall:  97.95%
+  Class 3 -> Precision:  41.67% | Recall:  78.12%
+  Class 4 -> Precision: 100.00% | Recall:  19.44%
+==================================================
+
+==================================================
+       EVALUATION RESULTS FOR SLICE n = 3       
+==================================================
+Global Accuracy : 71.26%
+MCC             : 0.3717
+
+Per-Class Breakdown:
+  Class 1 -> Precision:   0.00% | Recall:   0.00%
+  Class 2 -> Precision:  98.15% | Recall:  73.27%
+  Class 3 -> Precision:   7.38% | Recall:  31.03%
+  Class 4 -> Precision:  54.55% | Recall:  83.33%
+==================================================
+
 
 Redundant sensor subsets (removable without total loss of association):
   None

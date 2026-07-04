@@ -485,6 +485,7 @@ end
 
 % Detailed per-vehicle sensor assignments
 fail_counter = 0;
+Confusion_Matrix = zeros(numCat,numCat+1,numSensors);
 fprintf('\n\nSensor matches per oracle vehicle:\n');
 for v = 1:numVehs
     if sum(isnan(bestTimes(v,:))) == numSensors
@@ -495,14 +496,108 @@ for v = 1:numVehs
         fprintf('Vehicle %d (oracle k = %d): x = %d\n',...
             v, kx(v), x(kx(v)));
     end
+    xx = x(kx(v));
     for n = 1:numSensors
         if ~isnan(bestTimes(v,n))
             fprintf('  Sensor %2d : k_hat = %d, y = %d\n',...
                 n, bestTimes(v,n), y(bestTimes(v,n),n));
+            yy = y(bestTimes(v,n),n);
+            Confusion_Matrix(xx,yy,n) = Confusion_Matrix(xx,yy,n) + 1;
         else
             fprintf('  Sensor %2d : no detection\n', n);
+            yy = numCat + 1;
+            Confusion_Matrix(xx,yy,n) = Confusion_Matrix(xx,yy,n) + 1;
         end
     end
+end
+
+%% Confusion Matrix: compuation of Accuracy, Precision, Recall and Matthews correlation coefficient
+
+Confusion_Matrix
+
+Confusion_Matrix = Confusion_Matrix(:,1:numCat,:);
+
+% Get dimensions of the hypermatrix
+[num_rows, num_cols, num_slices] = size(Confusion_Matrix);
+
+% Preallocate arrays to store global metrics for each slice (n = 1, 2, 3)
+Accuracy_Global_All = zeros(num_slices, 1);
+MCC_All = zeros(num_slices, 1);
+
+% Loop through the third dimension (slices n = 1, 2, 3)
+for n = 1:num_slices
+    
+    % Extract the current 2D confusion matrix slice
+    Current_Matrix = Confusion_Matrix(:, :, n);
+    
+    % --- 1. GLOBAL ACCURACY CALCULATION ---
+    TP_global = sum(diag(Current_Matrix)); 
+    Total_Data = sum(Current_Matrix(:));  
+    
+    if Total_Data > 0
+        Accuracy_Global_All(n) = TP_global / Total_Data;
+    else
+        Accuracy_Global_All(n) = 0;
+    end
+
+    % --- 2. PRECISION AND RECALL PER CLASS ---
+    Precision_per_class = zeros(num_rows, 1);
+    Recall_per_class = zeros(num_rows, 1);
+
+    for i = 1:num_rows
+        TP = Current_Matrix(i, i);
+        Total_Row_Real = sum(Current_Matrix(i, :));
+        Total_Col_Pred = sum(Current_Matrix(:, i));
+        
+        % Calculate Recall (handle division by zero)
+        if Total_Row_Real > 0
+            Recall_per_class(i) = TP / Total_Row_Real;
+        else
+            Recall_per_class(i) = 0;
+        end
+        
+        % Calculate Precision (handle division by zero)
+        if Total_Col_Pred > 0
+            Precision_per_class(i) = TP / Total_Col_Pred;
+        else
+            Precision_per_class(i) = 0;
+        end
+    end
+
+    % --- 3. MULTI-CLASS MATTHEWS CORRELATION COEFFICIENT (MCC) ---
+    % Gorodkin generalization for rectangular or non-square matrices
+    c = sum(diag(Current_Matrix));
+    s = sum(Current_Matrix(:));
+    pk = sum(Current_Matrix, 1);   % Column sums
+    qk = sum(Current_Matrix, 2)';  % Row sums (transposed to row vector)
+
+    % Expand qk to match pk dimensions if the matrix has an extra ghost column
+    if num_cols > num_rows
+        qk(num_cols) = 0; 
+    end
+
+    num = c * s - sum(pk .* qk);
+    den = sqrt( (s^2 - sum(pk.^2)) * (s^2 - sum(qk.^2)) );
+
+    if den == 0
+        MCC_All(n) = 0;
+    else
+        MCC_All(n) = num / den;
+    end
+
+    % --- 4. DISPLAY RESULTS FOR THE CURRENT SLICE ---
+    fprintf('==================================================\n');
+    fprintf('       EVALUATION RESULTS FOR SLICE n = %d       \n', n);
+    fprintf('==================================================\n');
+    fprintf('Global Accuracy : %.2f%%\n', Accuracy_Global_All(n) * 100);
+    fprintf('MCC             : %.4f\n\n', MCC_All(n));
+
+    fprintf('Per-Class Breakdown:\n');
+    for i = 1:num_rows
+        fprintf('  Class %d -> Precision: %6.2f%% | Recall: %6.2f%%\n', ...
+                i, Precision_per_class(i) * 100, Recall_per_class(i) * 100);
+    end
+    fprintf('==================================================\n\n');
 end
 
 
