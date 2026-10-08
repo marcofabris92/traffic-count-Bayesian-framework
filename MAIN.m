@@ -373,10 +373,15 @@ bestTimes = NaN(numVehs, numSensors);
 
 numCat = 4;
 EXPONENT = 1;
-Penalty = 10^ceil(log10((1+numCat^EXPONENT)*numVehs));
-weight = Penalty*ones(numVehs,T,numSensors); 
+nrm_cat = 1+numCat^EXPONENT;
+Prob_factor = 10000;
+Penalty = 1+ceil(Prob_factor*T);
+
+weight = Penalty*ones(numVehs,T,numSensors); % vehicles x times x sensors
+associationsP = zeros(1,numSensors);
+associationsI = zeros(1,numSensors);
+noAssociations = zeros(1,numSensors);
 for n = 1:numSensors
-    n
 
     W = bestDelta(n);
     timesArray = NaN(numVehs,1);
@@ -385,63 +390,84 @@ for n = 1:numSensors
     matched = zeros(numVehs,1);
     for v = 1:numVehs
         for k = 1:T
-            if abs(k-kx(v)) > W
-                continue
-            end
-            if k == kx(v) && y(k,n) == x(k)
-            %if y(k,n) == x(k)
-                weight(v,k,n) = -1;
-                matched(v) = 1; % perfect match
-                %weight(v,k,n) = 0;
-            elseif y(k,n) > 0
-                % if you change the next line also change Penalty!
-                weight(v,k,n) = err(k,n)+abs(y(k,n)-x(kx(v)))^EXPONENT;
-                %weight(v,k,n) = abs(y(k,n)-x(kx(v)))^EXPONENT;
+            if abs(k-kx(v)) <= W
+                if k == kx(v) && y(k,n) == x(k) % optimal association
+                    weight(v,k,n) = 0;
+                    matched(v) = 1; 
+                elseif y(k,n) > 0 % suboptimal association
+                    weight(v,k,n) = ceil(Prob_factor * err(k,n) * (1+(abs(y(k,n)-x(kx(v)))^EXPONENT))/nrm_cat );
+                end
             end
         end
     end
 
-    % Heuristics on weights for perfect matches:
+    % Heuristics on weights for optimal associations:
     % increases n° of total mismatches but improves the quality of
     % associations established
-    for v = 1:numVehs
-        if matched(v)
-            kv = kx(v);
-            for w = [1:v-1 v+1:numVehs]
-                weight(w,kv,n) = Penalty;
-            end
-        end
-    end
-
-    % shortest path
-    Path = zeros(numVehs,1);
-    Mat = Inf(T,numVehs);
-    last = T-numVehs+1;
-    Mat(1:last,1) = weight(1,1:last,n)';
-    % for k = max(1,kx(1)-W):min(kx(1)+W,T-numVehs+1)
-    %     Mat(k,v) = weight(1,k,n);
+    % for v = 1:numVehs
+    %     if matched(v)
+    %         kv = kx(v);
+    %         for vv = [1:v-1 v+1:numVehs]
+    %             weight(vv,kv,n) = Penalty;
+    %         end
+    %     end
     % end
+
+    % Shortest path program
+    Mat = +Inf*ones(T,numVehs); % times x vehicles
+    Pred = zeros(T,numVehs); % times x vehicles
+    last = T-numVehs+1;
+    for k = max(1,kx(1)-W):min(kx(1)+W,last)
+        Mat(k,1) = weight(1,k,n);
+    end
+
+    % Dynamic Programming main loop (forward propagation)
     for v = 1:numVehs-1
-        [~,k] = min(Mat(:,v));
-        Path(v) = k;
         last = T-numVehs+v;
+        min_kk_dist = +Inf*ones(T,1);
         for k = v:last
-            for kk = k+1:last+1
-            %for kk = min(k+1,kx(v+1)-W):min(last+1,kx(v+1)+W)
-                Mat(kk,v+1) = min(Mat(kk,v+1), Mat(k,v)+weight(v+1,kk,n));
+            k_dist = abs(k - kx(v));
+            for kk = max(k+1,kx(v+1)-W):min(last+1,kx(v+1)+W)
+                DM = Mat(k,v) + weight(v+1,kk,n);
+                condition1 = (DM < Mat(kk,v+1));
+                condition2 = (DM == Mat(kk,v+1) && k_dist <= min_kk_dist(kk));
+                if condition1 || condition2
+                    Pred(kk,v+1) = k;
+                    Mat(kk,v+1) = DM;
+                    min_kk_dist(kk) = k_dist;
+                end
             end
         end
     end
-    [value,k] = min(Mat(:,numVehs));
-    Path(numVehs) = k;
 
-    % associations
-    for v = 1:numVehs
-        k = Path(v);
-        if weight(v,k,n) < Penalty %&& y(k,n) > 0
-            timesArray(v) = k;
+    % Making associations (backtracking)
+    min_k_dist = +Inf;
+    [min_last,kk] = min(Mat(:,numVehs));
+    for k_last = v:T-numVehs+1
+        if Mat(k_last,numVehs) == min_last && abs(k_last - kx(numVehs)) <= min_k_dist
+            min_k_dist = abs(k_last - kx(numVehs));
+            kk = k_last;
         end
     end
+
+    for v = numVehs:-1:1
+        if weight(v,kk,n) < Penalty && y(kk,n) > 0
+            timesArray(v) = kk;
+        end
+        dMat = Mat(kk,v);
+        kk = Pred(kk,v);
+        if v > 1
+            dMat = dMat - Mat(kk,v-1);
+        end
+        if dMat == 0 % association: perfect match
+            associationsP(n) = associationsP(n) + 1;
+        elseif dMat > 0 && dMat < Penalty % association: imperfect match
+            associationsI(n) = associationsI(n) + 1;
+        elseif dMat >= Penalty % no association
+            noAssociations(n) = noAssociations(n) + 1;
+        end
+    end
+    
 
     % ------------------------------------------------------
     % Objective function (in case multiple W are tested):
@@ -458,6 +484,13 @@ for n = 1:numSensors
     end
     
 end
+
+%%
+associationsP
+associationsI
+noAssociations
+
+%error('STOP here')
 
 %% ============================================================
 % OUTPUT RESULTS
@@ -582,7 +615,7 @@ for n = 1:num_slices
     if den == 0
         MCC_All(n) = 0;
     else
-        MCC_All(n) = num / den;
+        MCC_All(n) = 100 * num / den;
     end
 
     % --- 4. DISPLAY RESULTS FOR THE CURRENT SLICE ---
@@ -590,7 +623,7 @@ for n = 1:num_slices
     fprintf('       EVALUATION RESULTS FOR SLICE n = %d       \n', n);
     fprintf('==================================================\n');
     fprintf('Global Accuracy : %.2f%%\n', Accuracy_Global_All(n) * 100);
-    fprintf('MCC             : %.4f\n\n', MCC_All(n));
+    fprintf('MCC             : %.2f%%\n\n', MCC_All(n));
 
     fprintf('Per-Class Breakdown:\n');
     for i = 1:num_rows
@@ -599,6 +632,7 @@ for n = 1:num_slices
     end
     fprintf('==================================================\n\n');
 end
+
 
 
 
@@ -701,6 +735,8 @@ for n = 1:numSensors
     fprintf('Sensor %2d: %d mismatches over %d associations\n', ...
         n, mismatchCount(n), associations(n));
 end
+
+
 
 
 
