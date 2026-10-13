@@ -391,10 +391,10 @@ for n = 1:numSensors
     for v = 1:numVehs
         for k = 1:T
             if abs(k-kx(v)) <= W
-                if k == kx(v) && y(k,n) == x(k) % optimal association
+                if k == kx(v) && y(k,n) == x(k) % compatible association
                     weight(v,k,n) = 0;
                     matched(v) = 1; 
-                elseif y(k,n) > 0 % suboptimal association
+                elseif y(k,n) > 0 % incompatible association
                     weight(v,k,n) = ceil(Prob_factor * err(k,n) * (1+(abs(y(k,n)-x(kx(v)))^EXPONENT))/nrm_cat );
                 end
             end
